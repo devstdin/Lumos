@@ -1,5 +1,5 @@
 # Lumos
-Lumos is an analog test chip for IHP's SG13G2 technology. The chip was taped out in September 2025 and contains the following functional blocks:
+Lumos is an analog test chip for IHP's [SG13G2](https://github.com/IHP-GmbH/IHP-Open-PDK) technology. The chip was taped out in September 2025 and contains the following functional blocks:
 
 - [POR](https://devstdin.github.io/asic-artefacts/ihp_por/por/)
 - [Bandgap](https://devstdin.github.io/asic-artefacts/ihp_bmbg/bmbg/)
