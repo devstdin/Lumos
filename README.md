@@ -1,7 +1,7 @@
 # Lumos
 Lumos is an analog test chip for IHP's SG13G2 technology. The chip was taped out in September 2025 and contains the following functional blocks:
 
-- [POR](https://devstdin.github.io/asic-artefacts/bmbg/bmbg/)
+- [POR](https://devstdin.github.io/asic-artefacts/ihp_por/por/)
 - [Bandgap](https://devstdin.github.io/asic-artefacts/ihp_bmbg/bmbg/)
   - [OTA](https://devstdin.github.io/asic-artefacts/ihp_bmbg/bmbgota/)
 - [Ref. Current Source](https://devstdin.github.io/asic-artefacts/ihp_vthref/vthref/)
@@ -13,13 +13,13 @@ Lumos is an analog test chip for IHP's SG13G2 technology. The chip was taped out
 
 ## Schematic
 
-- [Padframe](doc/resources/Lumos.pdf)
-- [Core](doc/resources/core.pdf)
+- [Padframe](doc/Lumos.pdf)
+- [Core](doc/core.pdf)
 
 ## Layout
 [GDS](https://github.com/devstdin/TO_Sep2025/tree/Lumos/Lumos/design_data/gds)
 
-![Lumos Layout](doc/resources/Lumos_plot_pads.png)
+![Lumos Layout](doc/Lumos_plot_pads.png)
 
 At the time the chip was laid out, there was no complete device generator for Magic in the IHP PDK. Therefore, the primitive elements in this layout were created using a custom device generator, which can be found [here](https://github.com/devstdin/IHP-Open-PDK/tree/dev/ihp-sg13g2/libs.tech/magic).
 
@@ -34,11 +34,11 @@ At the time the chip was laid out, there was no complete device generator for Ma
 
 | Status0: | 7:MSB | 6 | 5 | 4 | 3 | 2 | 1 | 0:LSB |
 | --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
-|     | control0[7] | control0[6] | control0[5] | control0[4] | control0[3] | control0[2] | control0[1] | control0[0] |
+|     | ctrl0[7] | ctrl0[6] | ctrl0[5] | ctrl0[4] | ctrl0[3] | ctrl0[2] | ctrl0[1] | ctrl0[0] |
 
 | Control0: | 7:MSB | 6 | 5 | 4 | 3 | 2 | 1 | 0:LSB |
 | --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
-|     | osc en | - | osctrim[5] | osctrim[4] | osctrim[3] | osctrim[2] | osctrim[1] | osctrim[0] |
+|     | osc en | - | trim[5] | trim[4] | trim[3] | trim[2] | trim[1] | trim[0] |
 
 | Control1: | 7:MSB | 6 | 5 | 4 | 3 | 2 | 1 | 0:LSB |
 | --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
@@ -50,4 +50,4 @@ At the time the chip was laid out, there was no complete device generator for Ma
 
 ## SPI Transactions
 
-<img src="doc/resources/spi_transactions.svg" alt="SPI Transactions" width="800">
+<img src="doc/spi_transactions.svg" alt="SPI Transactions" width="800">
