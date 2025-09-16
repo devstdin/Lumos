@@ -1,0 +1,87 @@
+magic
+tech ihp-sg13g2
+magscale 1 2
+timestamp 1752931916
+<< error_p >>
+rect -16 132 -6 142
+rect 6 132 16 142
+rect -26 122 26 132
+rect -16 110 16 122
+rect -26 100 26 110
+rect -16 90 -6 100
+rect 6 90 16 100
+rect -79 36 -69 46
+rect -57 36 -47 46
+rect 47 36 57 46
+rect 69 36 79 46
+rect -89 26 -37 36
+rect 37 26 89 36
+rect -79 -26 -47 26
+rect 47 -26 79 26
+rect -89 -36 -37 -26
+rect 37 -36 89 -26
+rect -79 -46 -69 -36
+rect -57 -46 -47 -36
+rect 47 -46 57 -36
+rect 69 -46 79 -36
+rect -16 -100 -6 -90
+rect 6 -100 16 -90
+rect -26 -110 26 -100
+rect -16 -122 16 -110
+rect -26 -132 26 -122
+rect -16 -142 -6 -132
+rect 6 -142 16 -132
+<< nmos >>
+rect -25 -50 25 50
+<< ndiff >>
+rect -93 36 -25 50
+rect -93 -36 -79 36
+rect -47 -36 -25 36
+rect -93 -50 -25 -36
+rect 25 36 93 50
+rect 25 -36 47 36
+rect 79 -36 93 36
+rect 25 -50 93 -36
+<< ndiffc >>
+rect -79 -36 -47 36
+rect 47 -36 79 36
+<< psubdiff >>
+rect -93 234 93 248
+rect -93 202 -79 234
+rect 79 202 93 234
+rect -93 188 93 202
+rect -93 -202 93 -188
+rect -93 -234 -79 -202
+rect 79 -234 93 -202
+rect -93 -248 93 -234
+<< psubdiffcont >>
+rect -79 202 79 234
+rect -79 -234 79 -202
+<< poly >>
+rect -30 132 30 146
+rect -30 100 -16 132
+rect 16 100 30 132
+rect -30 86 30 100
+rect -25 50 25 86
+rect -25 -86 25 -50
+rect -30 -100 30 -86
+rect -30 -132 -16 -100
+rect 16 -132 30 -100
+rect -30 -146 30 -132
+<< polycont >>
+rect -16 100 16 132
+rect -16 -132 16 -100
+<< metal1 >>
+rect -89 234 89 244
+rect -89 202 -79 234
+rect 79 202 89 234
+rect -89 192 89 202
+rect -89 -202 89 -192
+rect -89 -234 -79 -202
+rect 79 -234 89 -202
+rect -89 -244 89 -234
+<< properties >>
+string gencell lvnmos
+string library sg13g2_devstdin
+string parameters w 0.5 l 0.25 nf 1 nx 1 dx 0.21 ny 1 dy 0.18 wmin 0.50 lmin 0.50 class mosfet gcontcov_t 100 gcontcov_b 100 dcontcov_l 100 dcontcov_r 100 guard_distf 1.5 glc 0 grc 0 gtc 1 gbc 1
+<< end >>

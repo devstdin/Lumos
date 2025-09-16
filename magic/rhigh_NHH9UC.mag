@@ -1,0 +1,78 @@
+magic
+tech ihp-sg13g2
+timestamp 1757266023
+<< error_p >>
+rect -43 536 -38 541
+rect 38 536 43 541
+rect -48 531 -43 536
+rect 43 531 48 536
+rect -48 520 -43 525
+rect 43 520 48 525
+rect -43 515 -38 520
+rect 38 515 43 520
+rect -43 -520 -38 -515
+rect 38 -520 43 -515
+rect -48 -525 -43 -520
+rect 43 -525 48 -520
+rect -48 -536 -43 -531
+rect 43 -536 48 -531
+rect -43 -541 -38 -536
+rect 38 -541 43 -536
+<< psubdiff >>
+rect -140 626 140 633
+rect -140 610 -103 626
+rect 103 610 140 626
+rect -140 603 140 610
+rect -140 596 -110 603
+rect -140 -596 -133 596
+rect -117 -596 -110 596
+rect 110 596 140 603
+rect -140 -603 -110 -596
+rect 110 -596 117 596
+rect 133 -596 140 596
+rect 110 -603 140 -596
+rect -140 -610 140 -603
+rect -140 -626 -103 -610
+rect 103 -626 140 -610
+rect -140 -633 140 -626
+<< psubdiffcont >>
+rect -103 610 103 626
+rect -133 -596 -117 596
+rect 117 -596 133 596
+rect -103 -626 103 -610
+<< poly >>
+rect -50 536 50 543
+rect -50 520 -43 536
+rect 43 520 50 536
+rect -50 500 50 520
+rect -50 -520 50 -500
+rect -50 -536 -43 -520
+rect 43 -536 50 -520
+rect -50 -543 50 -536
+<< polycont >>
+rect -43 520 43 536
+rect -43 -536 43 -520
+<< xpolyres >>
+rect -50 -500 50 500
+<< metal1 >>
+rect -138 626 138 631
+rect -138 610 -103 626
+rect 103 610 138 626
+rect -138 605 138 610
+rect -138 596 -112 605
+rect -138 -596 -133 596
+rect -117 -596 -112 596
+rect 112 596 138 605
+rect -138 -605 -112 -596
+rect 112 -596 117 596
+rect 133 -596 138 596
+rect 112 -605 138 -596
+rect -138 -610 138 -605
+rect -138 -626 -103 -610
+rect 103 -626 138 -610
+rect -138 -631 138 -626
+<< properties >>
+string gencell rhigh
+string library sg13g2_devstdin
+string parameters w 1 l 10 nx 1 dx 0.18 ny 1 dy 0.18 wmin 0.50 lmin 0.50 class resistor endcov 0 glc 1 grc 1 gtc 1 gbc 1
+<< end >>

@@ -1,0 +1,43 @@
+magic
+tech ihp-sg13g2
+magscale 1 2
+timestamp 1755542813
+<< checkpaint >>
+rect -2124 -6054 3602 1954
+<< metal1 >>
+rect 0 -221 1404 -179
+rect 0 -2221 1404 -2179
+rect 0 -3921 1404 -3879
+<< metal2 >>
+rect 235 -200 977 -120
+rect 235 -2047 275 -200
+rect 937 -2047 977 -200
+rect 636 -3696 676 -2408
+rect 1338 -3696 1378 -2408
+use sg13g2_LevelUpInv  sg13g2_LevelUpInv_0
+timestamp 1755542813
+transform 1 0 0 0 1 -3900
+box -124 -154 826 3854
+use sg13g2_LevelUpInv  sg13g2_LevelUpInv_1
+timestamp 1755542813
+transform 1 0 702 0 1 -3900
+box -124 -154 826 3854
+<< labels >>
+flabel metal2 s 1338 -3696 1378 -2408 0 FreeSans 800 0 0 0 pgate
+port 6 nsew
+rlabel metal2 s 636 -3696 676 -2408 4 ngate
+port 5 nsew
+rlabel metal2 s 235 -200 977 -120 4 core
+port 4 nsew
+rlabel metal1 s 0 -3921 1404 -3879 4 iovdd
+port 3 nsew
+rlabel metal1 s 0 -221 1404 -179 4 vdd
+port 1 nsew
+rlabel metal1 s 0 -2221 1404 -2179 4 vss
+port 2 nsew
+<< properties >>
+string device primitive
+string GDS_END 29661080
+string GDS_FILE sg13g2_io.gds
+string GDS_START 29659922
+<< end >>

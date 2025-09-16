@@ -1,0 +1,342 @@
+magic
+tech ihp-sg13g2
+magscale 1 2
+timestamp 1756924281
+<< metal1 >>
+rect 54946 -25248 56166 -25238
+rect 54946 -39674 54956 -25248
+rect 56156 -39674 56166 -25248
+rect 54946 -39684 56166 -39674
+rect 59456 -27309 59964 -10228
+rect 60408 -25246 61630 -25236
+rect 60408 -27309 60418 -25246
+rect 59456 -27709 60418 -27309
+rect 59456 -29784 59964 -27709
+rect 60408 -29784 60418 -27709
+rect 59456 -30184 60418 -29784
+rect 59456 -32259 59964 -30184
+rect 60408 -32259 60418 -30184
+rect 59456 -32659 60418 -32259
+rect 59456 -34734 59964 -32659
+rect 60408 -34734 60418 -32659
+rect 59456 -35134 60418 -34734
+rect 59456 -37209 59964 -35134
+rect 60408 -37209 60418 -35134
+rect 59456 -37609 60418 -37209
+rect 59456 -39684 59964 -37609
+rect 60408 -39674 60418 -37609
+rect 61620 -39674 61630 -25246
+rect 60408 -39684 61630 -39674
+<< via1 >>
+rect 54956 -39674 56156 -25248
+rect 60418 -39674 61620 -25246
+<< metal2 >>
+rect -14827 81448 -13182 81502
+rect 44855 -10994 48094 -10974
+rect 44855 -27664 44875 -10994
+rect 46775 -24024 48094 -10994
+rect 59860 -10994 63036 -10974
+rect 59860 -24022 62226 -10994
+rect 46775 -27664 46795 -24024
+rect 44855 -27684 46795 -27664
+rect 54946 -25248 56715 -25238
+rect 54946 -39674 54956 -25248
+rect 56156 -32643 56715 -25248
+rect 59860 -25246 61630 -25236
+rect 56156 -39674 56714 -32643
+rect 54946 -39684 56714 -39674
+rect 59860 -39674 60418 -25246
+rect 61620 -39674 61630 -25246
+rect 62206 -27664 62226 -24022
+rect 63016 -27664 63036 -10994
+rect 62206 -27684 63036 -27664
+rect 59860 -39684 61630 -39674
+<< via2 >>
+rect 44875 -27664 46775 -10994
+rect 54966 -39664 56146 -25258
+rect 60428 -39664 61610 -25256
+rect 62226 -27664 63016 -10994
+<< metal3 >>
+rect 44855 -10994 46795 -10974
+rect 44855 -17084 44875 -10994
+rect 43870 -22184 44875 -17084
+rect 44855 -22584 44875 -22184
+rect 43870 -27664 44875 -22584
+rect 46775 -27664 46795 -10994
+rect 62206 -10994 63036 -10974
+rect 43870 -27684 46795 -27664
+rect 54946 -25258 56166 -25238
+rect 54946 -28884 54966 -25258
+rect 43884 -33984 54966 -28884
+rect 54946 -34384 54966 -33984
+rect 43890 -39484 54966 -34384
+rect 54946 -39664 54966 -39484
+rect 56146 -39664 56166 -25258
+rect 54946 -39684 56166 -39664
+rect 60408 -25256 61630 -25236
+rect 60408 -39664 60428 -25256
+rect 61610 -28884 61630 -25256
+rect 62206 -27664 62226 -10994
+rect 63016 -17084 63036 -10994
+rect 63016 -22184 63920 -17084
+rect 63016 -22584 63036 -22184
+rect 63016 -27664 63920 -22584
+rect 62206 -27684 63920 -27664
+rect 61610 -33984 63901 -28884
+rect 61610 -34384 61630 -33984
+rect 61610 -39484 63904 -34384
+rect 61610 -39664 61630 -39484
+rect 60408 -39684 61630 -39664
+use bondpad70  bondpad70_0 ../ip/util/magic
+timestamp 1754824472
+transform 0 -1 132195 1 0 56116
+box 0 0 14000 14300
+use bondpad70  bondpad70_1
+timestamp 1754824472
+transform 1 0 26895 0 1 -55184
+box 0 0 14000 14300
+use bondpad70  bondpad70_2
+timestamp 1754824472
+transform 1 0 6895 0 1 -55184
+box 0 0 14000 14300
+use bondpad70  bondpad70_3
+timestamp 1754824472
+transform 1 0 -13105 0 1 -55184
+box 0 0 14000 14300
+use bondpad70  bondpad70_4
+timestamp 1754824472
+transform 0 1 -64405 -1 0 10116
+box 0 0 14000 14300
+use bondpad70  bondpad70_5
+timestamp 1754824472
+transform 0 1 -64405 -1 0 30116
+box 0 0 14000 14300
+use bondpad70  bondpad70_6
+timestamp 1754824472
+transform 0 1 -64405 -1 0 50116
+box 0 0 14000 14300
+use bondpad70  bondpad70_7
+timestamp 1754824472
+transform 0 1 -64405 -1 0 70116
+box 0 0 14000 14300
+use bondpad70  bondpad70_8
+timestamp 1754824472
+transform -1 0 895 0 -1 125416
+box 0 0 14000 14300
+use bondpad70  bondpad70_9
+timestamp 1754824472
+transform -1 0 20895 0 -1 125416
+box 0 0 14000 14300
+use bondpad70  bondpad70_10
+timestamp 1754824472
+transform -1 0 40895 0 -1 125416
+box 0 0 14000 14300
+use bondpad70  bondpad70_11
+timestamp 1754824472
+transform -1 0 60895 0 -1 125416
+box 0 0 14000 14300
+use bondpad70  bondpad70_12
+timestamp 1754824472
+transform -1 0 80895 0 -1 125416
+box 0 0 14000 14300
+use bondpad70  bondpad70_13
+timestamp 1754824472
+transform 1 0 66896 0 1 -55184
+box 0 0 14000 14300
+use bondpad70  bondpad70_14
+timestamp 1754824472
+transform 0 -1 132195 1 0 36116
+box 0 0 14000 14300
+use bondpad70  bondpad70_15
+timestamp 1754824472
+transform 0 -1 132195 1 0 16116
+box 0 0 14000 14300
+use bondpad70  bondpad70_16
+timestamp 1754824472
+transform 0 -1 132195 1 0 -3884
+box 0 0 14000 14300
+use diodevdd_4kv  diodevdd_4kv_0 ../ip/util/magic
+timestamp 1752516157
+transform 1 0 56856 0 1 -17637
+box -460 0 3101 7410
+use diodevdd_4kv  diodevdd_4kv_1
+timestamp 1752516157
+transform -1 0 59728 0 -1 -17361
+box -460 0 3101 7410
+use diodevdd_4kv  diodevdd_4kv_2
+timestamp 1752516157
+transform 1 0 56856 0 1 -39039
+box -460 0 3101 7410
+use diodevdd_4kv  diodevdd_4kv_3
+timestamp 1752516157
+transform -1 0 59728 0 -1 -24495
+box -460 0 3101 7410
+use diodevdd_4kv  diodevdd_4kv_4
+timestamp 1752516157
+transform -1 0 56864 0 -1 -17361
+box -460 0 3101 7410
+use diodevdd_4kv  diodevdd_4kv_5
+timestamp 1752516157
+transform 1 0 53992 0 1 -17637
+box -460 0 3101 7410
+use diodevdd_4kv  diodevdd_4kv_10
+timestamp 1752516157
+transform -1 0 51136 0 -1 -17361
+box -460 0 3101 7410
+use diodevdd_4kv  diodevdd_4kv_11
+timestamp 1752516157
+transform -1 0 54000 0 -1 -17361
+box -460 0 3101 7410
+use diodevdd_4kv  diodevdd_4kv_12
+timestamp 1752516157
+transform 1 0 51128 0 1 -17637
+box -460 0 3101 7410
+use diodevdd_4kv  diodevdd_4kv_13
+timestamp 1752516157
+transform 1 0 48264 0 1 -17637
+box -460 0 3101 7410
+use sg13g2_Corner  sg13g2_Corner_0 ../ip/io/magic
+timestamp 1755542813
+transform -1 0 117895 0 -1 111116
+box 1076 1076 36124 36124
+use sg13g2_Corner  sg13g2_Corner_1
+timestamp 1755542813
+transform 0 -1 117895 1 0 -40884
+box 1076 1076 36124 36124
+use sg13g2_Corner  sg13g2_Corner_2
+timestamp 1755542813
+transform 1 0 -50105 0 1 -40884
+box 1076 1076 36124 36124
+use sg13g2_Corner  sg13g2_Corner_3
+timestamp 1755542813
+transform 0 1 -50105 -1 0 111116
+box 1076 1076 36124 36124
+use sg13g2_Filler2000  sg13g2_Filler2000_0 ../ip/io/magic
+timestamp 1755542813
+transform 1 0 41894 0 1 -40884
+box -124 1076 2124 35600
+use sg13g2_Filler2000  sg13g2_Filler2000_1
+timestamp 1755542813
+transform 1 0 63896 0 1 -40884
+box -124 1076 2124 35600
+use sg13g2_Filler4000  sg13g2_Filler4000_0 ../ip/io/magic
+timestamp 1755542813
+transform 0 1 -50105 -1 0 55116
+box -124 1076 4124 35600
+use sg13g2_Filler4000  sg13g2_Filler4000_1
+timestamp 1755542813
+transform 0 -1 117895 1 0 51116
+box -124 1076 4124 35600
+use sg13g2_Filler4000  sg13g2_Filler4000_3
+timestamp 1755542813
+transform 1 0 1895 0 1 -40884
+box -124 1076 4124 35600
+use sg13g2_Filler4000  sg13g2_Filler4000_4
+timestamp 1755542813
+transform 1 0 21895 0 1 -40884
+box -124 1076 4124 35600
+use sg13g2_Filler4000  sg13g2_Filler4000_5
+timestamp 1755542813
+transform 0 -1 117895 1 0 31116
+box -124 1076 4124 35600
+use sg13g2_Filler4000  sg13g2_Filler4000_6
+timestamp 1755542813
+transform 0 -1 117895 1 0 11116
+box -124 1076 4124 35600
+use sg13g2_Filler4000  sg13g2_Filler4000_7
+timestamp 1755542813
+transform -1 0 45895 0 -1 111116
+box -124 1076 4124 35600
+use sg13g2_Filler4000  sg13g2_Filler4000_8
+timestamp 1755542813
+transform -1 0 25895 0 -1 111116
+box -124 1076 4124 35600
+use sg13g2_Filler4000  sg13g2_Filler4000_9
+timestamp 1755542813
+transform -1 0 5895 0 -1 111116
+box -124 1076 4124 35600
+use sg13g2_Filler4000  sg13g2_Filler4000_10
+timestamp 1755542813
+transform -1 0 65895 0 -1 111116
+box -124 1076 4124 35600
+use sg13g2_Filler4000  sg13g2_Filler4000_11
+timestamp 1755542813
+transform 0 1 -50105 -1 0 35116
+box -124 1076 4124 35600
+use sg13g2_Filler4000  sg13g2_Filler4000_12
+timestamp 1755542813
+transform 0 1 -50105 -1 0 15116
+box -124 1076 4124 35600
+use sg13g2_Filler4000  sg13g2_Filler4000_13
+timestamp 1755542813
+transform 0 -1 117895 1 0 71116
+box -124 1076 4124 35600
+use sg13g2_IOPadAnalog  sg13g2_IOPadAnalog_0 ../ip/io/magic
+timestamp 1755542813
+transform 1 0 25895 0 1 -40884
+box -124 0 16124 36000
+use sg13g2_IOPadAnalog  sg13g2_IOPadAnalog_2
+timestamp 1755542813
+transform 1 0 -14105 0 1 -40884
+box -124 0 16124 36000
+use sg13g2_IOPadAnalog  sg13g2_IOPadAnalog_3
+timestamp 1755542813
+transform 1 0 5895 0 1 -40884
+box -124 0 16124 36000
+use sg13g2_IOPadIn  sg13g2_IOPadIn_0 ../ip/io/magic
+timestamp 1755542813
+transform 0 -1 117895 1 0 35116
+box -124 0 16124 36000
+use sg13g2_IOPadIn  sg13g2_IOPadIn_1
+timestamp 1755542813
+transform 0 -1 117895 1 0 15116
+box -124 0 16124 36000
+use sg13g2_IOPadIn  sg13g2_IOPadIn_2
+timestamp 1755542813
+transform 0 -1 117895 1 0 -4884
+box -124 0 16124 36000
+use sg13g2_IOPadInOut4mA  sg13g2_IOPadInOut4mA_0 ../ip/io/magic
+timestamp 1755542813
+transform 0 -1 117895 1 0 55116
+box -124 0 16124 36124
+use sg13g2_IOPadIOVdd  sg13g2_IOPadIOVdd_0 ../ip/io/magic
+timestamp 1755542813
+transform -1 0 21895 0 -1 111116
+box -124 0 16124 35600
+use sg13g2_IOPadIOVdd  sg13g2_IOPadIOVdd_1
+timestamp 1755542813
+transform 0 1 -50105 -1 0 51116
+box -124 0 16124 35600
+use sg13g2_IOPadIOVss  sg13g2_IOPadIOVss_0 ../ip/io/magic
+timestamp 1755542813
+transform -1 0 1895 0 -1 111116
+box -124 0 16124 35600
+use sg13g2_IOPadIOVss  sg13g2_IOPadIOVss_1
+timestamp 1755542813
+transform 0 1 -50105 -1 0 71116
+box -124 0 16124 35600
+use sg13g2_IOPadOut30mA  sg13g2_IOPadOut30mA_0 ../ip/io/magic
+timestamp 1755542813
+transform -1 0 81895 0 -1 111116
+box -124 0 16124 36000
+use sg13g2_IOPadTriOut30mA  sg13g2_IOPadTriOut30mA_0 ../ip/io/magic
+timestamp 1755542813
+transform 1 0 65896 0 1 -40884
+box -124 0 16124 36124
+use sg13g2_IOPadVdd  sg13g2_IOPadVdd_0 ../ip/io/magic
+timestamp 1755542813
+transform -1 0 61895 0 -1 111116
+box -124 0 16124 35600
+use sg13g2_IOPadVdd  sg13g2_IOPadVdd_1
+timestamp 1755542813
+transform 0 1 -50105 -1 0 11116
+box -124 0 16124 35600
+use sg13g2_IOPadVss  sg13g2_IOPadVss_0 ../ip/io/magic
+timestamp 1755542813
+transform -1 0 41895 0 -1 111116
+box -124 0 16124 35600
+use sg13g2_IOPadVss  sg13g2_IOPadVss_1
+timestamp 1755542813
+transform 0 1 -50105 -1 0 31116
+box -124 0 16124 35600
+<< end >>

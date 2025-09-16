@@ -1,0 +1,96 @@
+magic
+tech ihp-sg13g2
+timestamp 1756239811
+<< error_p >>
+rect -18 55 -13 60
+rect 13 55 18 60
+rect -23 50 23 55
+rect -18 44 18 50
+rect -23 39 23 44
+rect -18 34 -13 39
+rect 13 34 18 39
+rect -52 18 -47 23
+rect -41 18 -36 23
+rect 36 18 41 23
+rect 47 18 52 23
+rect -57 13 -31 18
+rect 31 13 57 18
+rect -52 -13 -36 13
+rect 36 -13 52 13
+rect -57 -18 -31 -13
+rect 31 -18 57 -13
+rect -52 -23 -47 -18
+rect -41 -23 -36 -18
+rect 36 -23 41 -18
+rect 47 -23 52 -18
+rect -18 -39 -13 -34
+rect 13 -39 18 -34
+rect -23 -44 23 -39
+rect -18 -50 18 -44
+rect -23 -55 23 -50
+rect -18 -60 -13 -55
+rect 13 -60 18 -55
+<< nwell >>
+rect -205 -62 205 176
+rect -121 -87 121 -62
+<< hvpmos >>
+rect -25 -25 25 25
+<< hvpdiff >>
+rect -59 18 -25 25
+rect -59 -18 -52 18
+rect -36 -18 -25 18
+rect -59 -25 -25 -18
+rect 25 18 59 25
+rect 25 -18 36 18
+rect 52 -18 59 18
+rect 25 -25 59 -18
+<< hvpdiffc >>
+rect -52 -18 -36 18
+rect 36 -18 52 18
+<< nsubdiff >>
+rect -143 107 143 114
+rect -143 91 -106 107
+rect 106 91 143 107
+rect -143 84 143 91
+rect -143 77 -113 84
+rect -143 7 -136 77
+rect -120 7 -113 77
+rect 113 77 143 84
+rect -143 0 -113 7
+rect 113 7 120 77
+rect 136 7 143 77
+rect 113 0 143 7
+<< nsubdiffcont >>
+rect -106 91 106 107
+rect -136 7 -120 77
+rect 120 7 136 77
+<< poly >>
+rect -25 55 25 62
+rect -25 39 -18 55
+rect 18 39 25 55
+rect -25 25 25 39
+rect -25 -39 25 -25
+rect -25 -55 -18 -39
+rect 18 -55 25 -39
+rect -25 -62 25 -55
+<< polycont >>
+rect -18 39 18 55
+rect -18 -55 18 -39
+<< metal1 >>
+rect -141 107 141 112
+rect -141 91 -106 107
+rect 106 91 141 107
+rect -141 86 141 91
+rect -141 77 -115 86
+rect -141 7 -136 77
+rect -120 7 -115 77
+rect 115 77 141 86
+rect -141 2 -115 7
+rect 115 7 120 77
+rect 136 7 141 77
+rect 115 2 141 7
+<< properties >>
+string gencell hvpmos
+string library sg13g2_devstdin
+string parameters w 0.5 l 0.5 nf 1 nx 1 dx 0.21 ny 1 dy 0.18 wmin 0.50 lmin 0.50 class mosfet gcontcov_t 100 gcontcov_b 100 dcontcov_l 100 dcontcov_r 100 guard_distf 1 glc 1 grc 1 gtc 1 gbc 0
+<< end >>

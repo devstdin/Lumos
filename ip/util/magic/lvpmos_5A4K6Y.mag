@@ -1,0 +1,109 @@
+magic
+tech ihp-sg13g2
+magscale 1 2
+timestamp 1752439852
+<< error_p >>
+rect -16 543 -6 553
+rect 6 543 16 553
+rect -26 533 26 543
+rect -16 521 16 533
+rect -26 511 26 521
+rect -16 501 -6 511
+rect 6 501 16 511
+rect -67 447 -57 457
+rect -45 447 -35 457
+rect 35 447 45 457
+rect 57 447 67 457
+rect -77 437 -67 447
+rect -35 437 -25 447
+rect 25 437 35 447
+rect 67 437 77 447
+rect -77 -447 -67 -437
+rect -35 -447 -25 -437
+rect 25 -447 35 -437
+rect 67 -447 77 -437
+rect -67 -457 -57 -447
+rect -45 -457 -35 -447
+rect 35 -457 45 -447
+rect 57 -457 67 -447
+rect -16 -511 -6 -501
+rect 6 -511 16 -501
+rect -26 -521 26 -511
+rect -16 -533 16 -521
+rect -26 -543 26 -533
+rect -16 -553 -6 -543
+rect 6 -553 16 -543
+<< nwell >>
+rect -231 -693 231 693
+<< pmos >>
+rect -13 -461 13 461
+<< pdiff >>
+rect -81 447 -13 461
+rect -81 -447 -67 447
+rect -35 -447 -13 447
+rect -81 -461 -13 -447
+rect 13 447 81 461
+rect 13 -447 35 447
+rect 67 -447 81 447
+rect 13 -461 81 -447
+<< pdiffc >>
+rect -67 -447 -35 447
+rect 35 -447 67 447
+<< nsubdiff >>
+rect -183 631 183 645
+rect -183 599 -109 631
+rect 109 599 183 631
+rect -183 585 183 599
+rect -183 571 -123 585
+rect -183 -571 -169 571
+rect -137 -571 -123 571
+rect 123 571 183 585
+rect -183 -585 -123 -571
+rect 123 -571 137 571
+rect 169 -571 183 571
+rect 123 -585 183 -571
+rect -183 -599 183 -585
+rect -183 -631 -109 -599
+rect 109 -631 183 -599
+rect -183 -645 183 -631
+<< nsubdiffcont >>
+rect -109 599 109 631
+rect -169 -571 -137 571
+rect 137 -571 169 571
+rect -109 -631 109 -599
+<< poly >>
+rect -30 543 30 557
+rect -30 511 -16 543
+rect 16 511 30 543
+rect -30 497 30 511
+rect -13 461 13 497
+rect -13 -497 13 -461
+rect -30 -511 30 -497
+rect -30 -543 -16 -511
+rect 16 -543 30 -511
+rect -30 -557 30 -543
+<< polycont >>
+rect -16 511 16 543
+rect -16 -543 16 -511
+<< metal1 >>
+rect -179 631 179 641
+rect -179 599 -109 631
+rect 109 599 179 631
+rect -179 589 179 599
+rect -179 571 -127 589
+rect -179 -571 -169 571
+rect -137 -571 -127 571
+rect 127 571 179 589
+rect -179 -589 -127 -571
+rect 127 -571 137 571
+rect 169 -571 179 571
+rect 127 -589 179 -571
+rect -179 -599 179 -589
+rect -179 -631 -109 -599
+rect 109 -631 179 -599
+rect -179 -641 179 -631
+<< properties >>
+string gencell lvpmos
+string library sg13g2_devstdin
+string parameters w 4.61 l 0.13 nf 1 nx 1 dx 0.21 ny 1 dy 0.18 wmin 0.50 lmin 0.50 class mosfet gcontcov_t 100 gcontcov_b 100 dcontcov_l 100 dcontcov_r 100 guard_distf 1 glc 1 grc 1 gtc 1 gbc 1
+<< end >>

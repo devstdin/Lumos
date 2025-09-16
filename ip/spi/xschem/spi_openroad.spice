@@ -1,0 +1,37 @@
+** sch_path: /home/lukas/git/asicip/ihp_spi/xschem/spi_openroad.sch
+**.subckt spi_openroad VSS VDD RESET DOUT CS SCLK DIN DOUT_EN CTRL0_0 CTRL0_1 CTRL0_2 CTRL0_3 CTRL0_4 CTRL0_5 CTRL0_6 CTRL0_7
+*+ STAT0_0 STAT0_1 STAT0_2 STAT0_3 STAT0_4 STAT0_5 STAT0_6 STAT0_7
+*.iopin VSS
+*.iopin VDD
+*.ipin RESET
+*.opin DOUT
+*.ipin CS
+*.ipin SCLK
+*.ipin DIN
+*.opin DOUT_EN
+*.opin CTRL0_0
+*.opin CTRL0_1
+*.opin CTRL0_2
+*.opin CTRL0_3
+*.opin CTRL0_4
+*.opin CTRL0_5
+*.opin CTRL0_6
+*.opin CTRL0_7
+*.ipin STAT0_0
+*.ipin STAT0_1
+*.ipin STAT0_2
+*.ipin STAT0_3
+*.ipin STAT0_4
+*.ipin STAT0_5
+*.ipin STAT0_6
+*.ipin STAT0_7
+X1 VDD VSS CS CTRL0_0 CTRL0_1 CTRL0_2 CTRL0_3 CTRL0_4 CTRL0_5 CTRL0_6 CTRL0_7 DIN DOUT DOUT_EN RESET SCLK STAT0_0 STAT0_1 STAT0_2
++ STAT0_3 STAT0_4 STAT0_5 STAT0_6 STAT0_7 spi
+**** begin user architecture code
+
+.include /home/lukas/bin/vlsi/ihpopenpdk_dev/dev/ihp-sg13g2/libs.ref/sg13g2_stdcell/spice/sg13g2_stdcell.spice
+.INCLUDE resources/spi.spice
+
+**** end user architecture code
+**.ends
+.end

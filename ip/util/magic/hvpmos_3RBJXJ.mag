@@ -1,0 +1,90 @@
+magic
+tech ihp-sg13g2
+timestamp 1753298217
+<< error_p >>
+rect -193 55 -188 60
+rect 188 55 193 60
+rect -198 50 -193 55
+rect 193 50 198 55
+rect -198 39 -193 44
+rect 193 39 198 44
+rect -193 34 -188 39
+rect 188 34 193 39
+rect -227 18 -222 23
+rect -216 18 -211 23
+rect 211 18 216 23
+rect 222 18 227 23
+rect -232 13 -206 18
+rect 206 13 232 18
+rect -227 -13 -211 13
+rect 211 -13 227 13
+rect -232 -18 -206 -13
+rect 206 -18 232 -13
+rect -227 -23 -222 -18
+rect -216 -23 -211 -18
+rect 211 -23 216 -18
+rect 222 -23 227 -18
+rect -193 -39 -188 -34
+rect 188 -39 193 -34
+rect -198 -44 -193 -39
+rect 193 -44 198 -39
+rect -198 -55 -193 -50
+rect 193 -55 198 -50
+rect -193 -60 -188 -55
+rect 188 -60 193 -55
+<< nwell >>
+rect -234 87 234 187
+rect -296 -87 296 87
+rect -234 -187 234 -87
+<< hvpmos >>
+rect -200 -25 200 25
+<< hvpdiff >>
+rect -234 18 -200 25
+rect -234 -18 -227 18
+rect -211 -18 -200 18
+rect -234 -25 -200 -18
+rect 200 18 234 25
+rect 200 -18 211 18
+rect 227 -18 234 18
+rect 200 -25 234 -18
+<< hvpdiffc >>
+rect -227 -18 -211 18
+rect 211 -18 227 18
+<< nsubdiff >>
+rect -172 118 172 125
+rect -172 102 -165 118
+rect 165 102 172 118
+rect -172 95 172 102
+rect -172 -102 172 -95
+rect -172 -118 -165 -102
+rect 165 -118 172 -102
+rect -172 -125 172 -118
+<< nsubdiffcont >>
+rect -165 102 165 118
+rect -165 -118 165 -102
+<< poly >>
+rect -200 55 200 62
+rect -200 39 -193 55
+rect 193 39 200 55
+rect -200 25 200 39
+rect -200 -39 200 -25
+rect -200 -55 -193 -39
+rect 193 -55 200 -39
+rect -200 -62 200 -55
+<< polycont >>
+rect -193 39 193 55
+rect -193 -55 193 -39
+<< metal1 >>
+rect -170 118 170 123
+rect -170 102 -165 118
+rect 165 102 170 118
+rect -170 97 170 102
+rect -170 -102 170 -97
+rect -170 -118 -165 -102
+rect 165 -118 170 -102
+rect -170 -123 170 -118
+<< properties >>
+string gencell hvpmos
+string library sg13g2_devstdin
+string parameters w 0.5 l 4 nf 1 nx 1 dx 0.21 ny 1 dy 0.18 wmin 0.50 lmin 0.50 class mosfet gcontcov_t 100 gcontcov_b 100 dcontcov_l 100 dcontcov_r 100 guard_distf 1.5 glc 0 grc 0 gtc 1 gbc 1
+<< end >>

@@ -1,0 +1,23 @@
+magic
+tech ihp-sg13g2
+magscale 1 2
+timestamp 1754861848
+<< error_p >>
+rect -21 20 21 29
+rect -29 -20 -20 20
+rect -21 -29 21 -20
+<< metal2 >>
+rect -21 20 21 29
+rect -21 -20 -20 20
+rect 20 -20 21 20
+rect -21 -29 21 -20
+<< via2 >>
+rect -20 -20 20 20
+<< metal3 >>
+rect -29 -20 -20 20
+rect 20 -20 29 20
+<< properties >>
+string GDS_END 542
+string GDS_FILE 6_final.gds
+string GDS_START 346
+<< end >>

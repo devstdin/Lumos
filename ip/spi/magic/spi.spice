@@ -1,0 +1,748 @@
+* NGSPICE file created from spi.ext - technology: ihp-sg13g2
+
+* Black-box entry subcircuit for sg13g2_decap_8 abstract view
+.subckt sg13g2_decap_8 VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_fill_1 abstract view
+.subckt sg13g2_fill_1 VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_dfrbpq_1 abstract view
+.subckt sg13g2_dfrbpq_1 Q CLK D RESET_B VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_decap_4 abstract view
+.subckt sg13g2_decap_4 VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_mux2_1 abstract view
+.subckt sg13g2_mux2_1 X A0 A1 S VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_buf_4 abstract view
+.subckt sg13g2_buf_4 X A VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_buf_1 abstract view
+.subckt sg13g2_buf_1 X A VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_fill_2 abstract view
+.subckt sg13g2_fill_2 VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_tiehi abstract view
+.subckt sg13g2_tiehi L_HI VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_nor2b_1 abstract view
+.subckt sg13g2_nor2b_1 Y A B_N VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_mux4_1 abstract view
+.subckt sg13g2_mux4_1 X A0 A1 A2 A3 S0 S1 VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_buf_8 abstract view
+.subckt sg13g2_buf_8 X A VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_dfrbpq_2 abstract view
+.subckt sg13g2_dfrbpq_2 Q CLK D RESET_B VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_inv_2 abstract view
+.subckt sg13g2_inv_2 Y A VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_buf_2 abstract view
+.subckt sg13g2_buf_2 X A VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_inv_1 abstract view
+.subckt sg13g2_inv_1 Y A VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_nand2_1 abstract view
+.subckt sg13g2_nand2_1 Y A B VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_nand3b_1 abstract view
+.subckt sg13g2_nand3b_1 Y A_N B C VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_nor3_1 abstract view
+.subckt sg13g2_nor3_1 Y A B C VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_nor4_2 abstract view
+.subckt sg13g2_nor4_2 Y A B C D VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_xnor2_1 abstract view
+.subckt sg13g2_xnor2_1 Y A B VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_a22oi_1 abstract view
+.subckt sg13g2_a22oi_1 Y A1 A2 B1 B2 VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_nor2_1 abstract view
+.subckt sg13g2_nor2_1 Y A B VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_nand2b_1 abstract view
+.subckt sg13g2_nand2b_1 Y A_N B VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_nand2b_2 abstract view
+.subckt sg13g2_nand2b_2 Y A_N B VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_and2_2 abstract view
+.subckt sg13g2_and2_2 X A B VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_a21oi_1 abstract view
+.subckt sg13g2_a21oi_1 Y A1 A2 B1 VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_a21o_1 abstract view
+.subckt sg13g2_a21o_1 X A1 A2 B1 VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_nand2_2 abstract view
+.subckt sg13g2_nand2_2 Y A B VDD VSS
+.ends
+
+* Black-box entry subcircuit for sg13g2_and2_1 abstract view
+.subckt sg13g2_and2_1 X A B VDD VSS
+.ends
+
+.subckt spi VDD VSS cs ctrl0[0] ctrl0[1] ctrl0[2] ctrl0[3] ctrl0[4] ctrl0[5] ctrl0[6]
++ ctrl0[7] ctrl1[0] ctrl1[1] ctrl1[2] ctrl1[3] ctrl1[4] ctrl1[5] ctrl1[6] ctrl1[7]
++ ctrl2[0] ctrl2[1] ctrl2[2] ctrl2[3] ctrl2[4] ctrl2[5] ctrl2[6] ctrl2[7] din dout
++ dout_en reset sclk stat0[0] stat0[1] stat0[2] stat0[3] stat0[4] stat0[5] stat0[6]
++ stat0[7]
+XFILLER_7_7 VDD VSS sg13g2_decap_8
+XFILLER_3_56 VDD VSS sg13g2_fill_1
+XFILLER_9_159 VDD VSS sg13g2_fill_1
+Xtx_bits_d0\[4\]$_DFFE_NP_ _184_/A1 _118__12/Y _184_/X tx_bits_d0\[4\]$_DFFE_NP__16/L_HI
++ VDD VSS sg13g2_dfrbpq_1
+XFILLER_23_42 VDD VSS sg13g2_decap_4
+X_131_ _131_/X _188_/A1 _200_/A1 _132_/S VDD VSS sg13g2_mux2_1
+X_200_ _200_/X input2/X _200_/A1 _200_/S VDD VSS sg13g2_mux2_1
+Xclkbuf_regs_0_core_clock clkbuf_0_sclk_regs/A sclk VDD VSS sg13g2_buf_4
+XFILLER_2_154 VDD VSS sg13g2_decap_8
+XFILLER_0_35 VDD VSS sg13g2_decap_8
+XFILLER_9_11 VDD VSS sg13g2_fill_1
+Xtx_bits_d1\[1\]$_DFF_N_ _111_/A1 _118__7/Y _112_/X tx_bits_d1\[1\]$_DFF_N__21/L_HI
++ VDD VSS sg13g2_dfrbpq_1
+XFILLER_22_7 VDD VSS sg13g2_decap_8
+X_114_ _114_/X _181_/A1 _114_/A1 _184_/S VDD VSS sg13g2_mux2_1
+XFILLER_20_21 VDD VSS sg13g2_decap_8
+Xoutput31 ctrl2[3] _179_/A3 VDD VSS sg13g2_buf_1
+Xoutput20 ctrl1[0] _170_/A2 VDD VSS sg13g2_buf_1
+XFILLER_11_0 VDD VSS sg13g2_decap_8
+Xtx_bits_d0\[3\]$_DFFE_NP_ _181_/A1 _118__13/Y _181_/X tx_bits_d0\[3\]$_DFFE_NP__15/L_HI
++ VDD VSS sg13g2_dfrbpq_1
+XFILLER_3_13 VDD VSS sg13g2_fill_2
+Xtx_bits_d0\[0\]$_DFFE_NP__12 tx_bits_d0\[0\]$_DFFE_NP__12/L_HI VDD VSS sg13g2_tiehi
+XFILLER_5_185 VDD VSS sg13g2_decap_8
+Xi_ctrl0\[4\]$_DFFE_PP0P_ _182_/A1 clkload7/A _129_/X place90/X VDD VSS sg13g2_dfrbpq_1
+XFILLER_23_21 VDD VSS sg13g2_decap_8
+X_130_ _130_/X _185_/A1 _199_/A1 _132_/S VDD VSS sg13g2_mux2_1
+XFILLER_2_133 VDD VSS sg13g2_decap_8
+XFILLER_0_14 VDD VSS sg13g2_decap_8
+XFILLER_9_34 VDD VSS sg13g2_fill_2
+Xtx_bits_d1\[5\]$_DFF_N_ _115_/A1 _118__3/Y _116_/X tx_bits_d1\[5\]$_DFF_N__25/L_HI
++ VDD VSS sg13g2_dfrbpq_1
+X_113_ _113_/X _178_/A1 _113_/A1 _184_/S VDD VSS sg13g2_mux2_1
+XFILLER_15_7 VDD VSS sg13g2_decap_4
+Xtx_bits_d0\[2\]$_DFFE_NP_ _178_/A1 _118__14/Y _178_/X tx_bits_d0\[2\]$_DFFE_NP__14/L_HI
++ VDD VSS sg13g2_dfrbpq_1
+Xoutput32 ctrl2[4] _182_/A3 VDD VSS sg13g2_buf_1
+Xoutput21 ctrl1[1] _173_/A2 VDD VSS sg13g2_buf_1
+XFILLER_22_179 VDD VSS sg13g2_decap_8
+XFILLER_22_113 VDD VSS sg13g2_fill_1
+Xclkbuf_3_2__f_sclk_regs clkload4/A clkbuf_0_sclk_regs/X VDD VSS sg13g2_buf_4
+XFILLER_3_47 VDD VSS sg13g2_fill_2
+XFILLER_8_194 VDD VSS sg13g2_fill_1
+XFILLER_12_190 VDD VSS sg13g2_decap_4
+XFILLER_5_164 VDD VSS sg13g2_decap_8
+XFILLER_2_189 VDD VSS sg13g2_decap_4
+XFILLER_2_112 VDD VSS sg13g2_decap_8
+X_189_ _189_/Y _192_/A _188_/X VDD VSS sg13g2_nor2b_1
+Xi_ctrl1\[5\]$_DFFE_PP0P_ _185_/A2 clkload7/A _140_/X place90/X VDD VSS sg13g2_dfrbpq_1
+Xtx_bits_d1\[3\]$_DFF_N__23 tx_bits_d1\[3\]$_DFF_N__23/L_HI VDD VSS sg13g2_tiehi
+X_112_ _112_/X _175_/A1 _112_/A1 _184_/S VDD VSS sg13g2_mux2_1
+XFILLER_1_0 VDD VSS sg13g2_decap_8
+Xclkbuf_3_7__f_sclk_regs clkload9/A clkbuf_0_sclk_regs/X VDD VSS sg13g2_buf_4
+XFILLER_1_91 VDD VSS sg13g2_decap_8
+Xtx_bits_d0\[1\]$_DFFE_NP_ _175_/A1 _118__15/Y _175_/X tx_bits_d0\[1\]$_DFFE_NP__13/L_HI
++ VDD VSS sg13g2_dfrbpq_1
+XFILLER_19_174 VDD VSS sg13g2_decap_8
+Xoutput33 ctrl2[5] _185_/A3 VDD VSS sg13g2_buf_1
+Xtx_bits_d0\[4\]$_DFFE_NP__16 tx_bits_d0\[4\]$_DFFE_NP__16/L_HI VDD VSS sg13g2_tiehi
+Xoutput22 ctrl1[2] _176_/A2 VDD VSS sg13g2_buf_1
+XFILLER_22_158 VDD VSS sg13g2_decap_8
+XFILLER_3_26 VDD VSS sg13g2_decap_8
+XFILLER_5_7 VDD VSS sg13g2_decap_4
+XFILLER_5_143 VDD VSS sg13g2_decap_8
+XFILLER_3_4 VDD VSS sg13g2_fill_2
+XFILLER_2_168 VDD VSS sg13g2_decap_8
+XFILLER_0_49 VDD VSS sg13g2_decap_8
+X_188_ _188_/X _188_/A0 _188_/A1 _188_/A2 _188_/A3 _188_/S0 _191_/S1 VDD VSS sg13g2_mux4_1
+Xtx_bits_d0\[0\]$_DFFE_NP_ _172_/A1 _118__16/Y _172_/X tx_bits_d0\[0\]$_DFFE_NP__12/L_HI
++ VDD VSS sg13g2_dfrbpq_1
+XFILLER_9_36 VDD VSS sg13g2_fill_1
+XFILLER_9_47 VDD VSS sg13g2_fill_1
+X_111_ _111_/X _172_/A1 _111_/A1 _172_/S VDD VSS sg13g2_mux2_1
+XFILLER_1_70 VDD VSS sg13g2_decap_8
+Xclkbuf_leaf_1_sclk _118__4/A clkbuf_leaf_4_sclk/A VDD VSS sg13g2_buf_8
+XFILLER_6_59 VDD VSS sg13g2_fill_2
+Xi_ctrl2\[6\]$_DFFE_PP0P_ _188_/A3 clkload6/A _153_/X place89/A VDD VSS sg13g2_dfrbpq_1
+XFILLER_20_7 VDD VSS sg13g2_decap_8
+Xoutput23 ctrl1[3] _179_/A2 VDD VSS sg13g2_buf_1
+Xoutput34 ctrl2[6] _188_/A3 VDD VSS sg13g2_buf_1
+Xoutput12 ctrl0[0] _170_/A1 VDD VSS sg13g2_buf_1
+XFILLER_16_156 VDD VSS sg13g2_fill_1
+XFILLER_21_181 VDD VSS sg13g2_decap_8
+XFILLER_3_49 VDD VSS sg13g2_fill_1
+XFILLER_5_100 VDD VSS sg13g2_decap_8
+XFILLER_5_122 VDD VSS sg13g2_decap_8
+XFILLER_12_69 VDD VSS sg13g2_fill_1
+XFILLER_23_46 VDD VSS sg13g2_fill_2
+XFILLER_23_35 VDD VSS sg13g2_decap_8
+XFILLER_2_147 VDD VSS sg13g2_decap_8
+X_187_ _187_/X _186_/Y _187_/A1 _202_/B VDD VSS sg13g2_mux2_1
+XFILLER_0_28 VDD VSS sg13g2_decap_8
+XFILLER_18_68 VDD VSS sg13g2_fill_1
+XFILLER_18_46 VDD VSS sg13g2_fill_1
+Xclkload0 clkload0/X clkload0/A VDD VSS sg13g2_buf_8
+XFILLER_20_14 VDD VSS sg13g2_decap_8
+XFILLER_13_7 VDD VSS sg13g2_fill_2
+Xoutput24 ctrl1[4] _182_/A2 VDD VSS sg13g2_buf_1
+Xoutput13 ctrl0[1] _173_/A1 VDD VSS sg13g2_buf_1
+Xoutput35 ctrl2[7] _191_/A3 VDD VSS sg13g2_buf_1
+XFILLER_21_160 VDD VSS sg13g2_decap_8
+Xi_ctrl0\[1\]$_DFFE_PP0P_ _173_/A1 clkload4/A _126_/X place89/X VDD VSS sg13g2_dfrbpq_2
+XFILLER_5_178 VDD VSS sg13g2_decap_8
+XFILLER_23_14 VDD VSS sg13g2_decap_8
+X_186_ _186_/Y _192_/A _185_/X VDD VSS sg13g2_nor2b_1
+XFILLER_2_126 VDD VSS sg13g2_decap_8
+XFILLER_9_16 VDD VSS sg13g2_decap_4
+Xrx_tmp\[8\]$_DFFE_PN__11 rx_tmp\[8\]$_DFFE_PN__11/L_HI VDD VSS sg13g2_tiehi
+XFILLER_18_14 VDD VSS sg13g2_decap_4
+Xclkload1 clkload1/Y _118__9/A VDD VSS sg13g2_inv_2
+X_169_ _169_/X input2/X _122_/B _169_/S VDD VSS sg13g2_mux2_1
+XFILLER_19_188 VDD VSS sg13g2_decap_8
+Xoutput25 ctrl1[5] _185_/A2 VDD VSS sg13g2_buf_1
+Xoutput36 dout output36/A VDD VSS sg13g2_buf_2
+Xoutput14 ctrl0[2] _176_/A1 VDD VSS sg13g2_buf_1
+Xclkbuf_1_0__f_sclk clkbuf_leaf_4_sclk/A clkbuf_0_sclk/X VDD VSS sg13g2_buf_4
+XFILLER_8_187 VDD VSS sg13g2_decap_8
+XFILLER_12_194 VDD VSS sg13g2_fill_1
+XFILLER_5_157 VDD VSS sg13g2_decap_8
+X_185_ _185_/X input9/X _185_/A1 _185_/A2 _185_/A3 _188_/S0 _191_/S1 VDD VSS sg13g2_mux4_1
+XFILLER_2_105 VDD VSS sg13g2_decap_8
+Xclkbuf_leaf_4_sclk _118__9/A clkbuf_leaf_4_sclk/A VDD VSS sg13g2_buf_8
+Xi_ctrl1\[2\]$_DFFE_PP0P_ _176_/A2 clkload8/A _137_/X place89/A VDD VSS sg13g2_dfrbpq_1
+XFILLER_1_193 VDD VSS sg13g2_fill_2
+XFILLER_1_182 VDD VSS sg13g2_decap_8
+Xclkload2 clkload2/Y _118__8/A VDD VSS sg13g2_inv_1
+X_168_ _169_/S _168_/A _168_/B VDD VSS sg13g2_nand2_1
+XFILLER_1_84 VDD VSS sg13g2_decap_8
+Xrx_tmp\[5\]$_DFFE_PN__8 rx_tmp\[5\]$_DFFE_PN__8/L_HI VDD VSS sg13g2_tiehi
+XFILLER_13_9 VDD VSS sg13g2_fill_1
+Xoutput15 ctrl0[3] _179_/A1 VDD VSS sg13g2_buf_1
+Xoutput26 ctrl1[6] _188_/A2 VDD VSS sg13g2_buf_1
+Xoutput37 dout_en _203_/X VDD VSS sg13g2_buf_1
+Xrx_addr\[2\]$_DFFE_PP__3 rx_addr\[2\]$_DFFE_PP__3/L_HI VDD VSS sg13g2_tiehi
+XFILLER_5_114 VDD VSS sg13g2_decap_4
+XFILLER_5_136 VDD VSS sg13g2_decap_8
+XFILLER_4_95 VDD VSS sg13g2_decap_8
+X_184_ _184_/X _183_/Y _184_/A1 _184_/S VDD VSS sg13g2_mux2_1
+XFILLER_1_161 VDD VSS sg13g2_decap_8
+Xclkload3 clkload3/X clkload3/A VDD VSS sg13g2_buf_1
+Xi_ctrl2\[3\]$_DFFE_PP0P_ _179_/A3 clkload9/A _150_/X place90/X VDD VSS sg13g2_dfrbpq_1
+X_167_ _167_/X input2/X _167_/A1 _167_/S VDD VSS sg13g2_mux2_1
+XFILLER_20_28 VDD VSS sg13g2_decap_8
+XFILLER_1_63 VDD VSS sg13g2_decap_8
+Xrx_tmp\[2\]$_DFFE_PN__5 rx_tmp\[2\]$_DFFE_PN__5/L_HI VDD VSS sg13g2_tiehi
+XFILLER_18_0 VDD VSS sg13g2_decap_8
+Xoutput16 ctrl0[4] _182_/A1 VDD VSS sg13g2_buf_1
+XFILLER_16_149 VDD VSS sg13g2_fill_2
+Xoutput27 ctrl1[7] _191_/A2 VDD VSS sg13g2_buf_1
+XFILLER_11_7 VDD VSS sg13g2_decap_8
+XFILLER_21_174 VDD VSS sg13g2_decap_8
+XFILLER_23_28 VDD VSS sg13g2_decap_8
+XFILLER_3_9 VDD VSS sg13g2_decap_4
+X_183_ _183_/Y _192_/A _182_/X VDD VSS sg13g2_nor2b_1
+XFILLER_1_140 VDD VSS sg13g2_decap_8
+Xclkload4 clkload4/X clkload4/A VDD VSS sg13g2_buf_1
+XFILLER_1_42 VDD VSS sg13g2_decap_8
+X_166_ _166_/X _200_/A1 _145_/B _167_/S VDD VSS sg13g2_mux2_1
+XFILLER_19_169 VDD VSS sg13g2_fill_2
+X_149_ _149_/X _176_/A3 _196_/A1 _154_/S VDD VSS sg13g2_mux2_1
+Xoutput17 ctrl0[5] _185_/A1 VDD VSS sg13g2_buf_1
+XFILLER_18_191 VDD VSS sg13g2_decap_4
+Xre_cnt\[2\]$_DFFE_PN0P_ _163_/A rx_op$_DFFE_PP_/CLK _160_/Y _203_/B VDD VSS sg13g2_dfrbpq_2
+Xoutput28 ctrl2[0] _170_/A3 VDD VSS sg13g2_buf_1
+XFILLER_16_117 VDD VSS sg13g2_fill_1
+XFILLER_15_194 VDD VSS sg13g2_fill_1
+XFILLER_21_153 VDD VSS sg13g2_decap_8
+Xtx_bits_d1\[0\]$_DFF_N_ output36/A _118__8/Y _111_/X tx_bits_d1\[0\]$_DFF_N__20/L_HI
++ VDD VSS sg13g2_dfrbpq_1
+XFILLER_4_193 VDD VSS sg13g2_fill_2
+XFILLER_2_119 VDD VSS sg13g2_decap_8
+Xclkbuf_3_3__f_sclk_regs clkload5/A clkbuf_0_sclk_regs/X VDD VSS sg13g2_buf_4
+X_182_ _182_/X input8/X _182_/A1 _182_/A2 _182_/A3 _188_/S0 _191_/S1 VDD VSS sg13g2_mux4_1
+XFILLER_8_0 VDD VSS sg13g2_decap_8
+XFILLER_1_7 VDD VSS sg13g2_decap_8
+Xclkload5 clkload5/X clkload5/A VDD VSS sg13g2_buf_1
+XFILLER_1_98 VDD VSS sg13g2_decap_8
+XFILLER_1_21 VDD VSS sg13g2_decap_8
+X_165_ _165_/X _199_/A1 _145_/A _167_/S VDD VSS sg13g2_mux2_1
+X_148_ _148_/X _173_/A3 _195_/A1 _154_/S VDD VSS sg13g2_mux2_1
+Xoutput18 ctrl0[6] _188_/A1 VDD VSS sg13g2_buf_1
+Xoutput29 ctrl2[1] _173_/A3 VDD VSS sg13g2_buf_1
+XFILLER_23_0 VDD VSS sg13g2_decap_8
+Xtx_bits_d1\[4\]$_DFF_N_ _114_/A1 _118__4/Y _115_/X tx_bits_d1\[4\]$_DFF_N__24/L_HI
++ VDD VSS sg13g2_dfrbpq_1
+XFILLER_4_10 VDD VSS sg13g2_fill_1
+XFILLER_4_172 VDD VSS sg13g2_decap_8
+X_181_ _181_/X _180_/Y _181_/A1 _184_/S VDD VSS sg13g2_mux2_1
+XFILLER_1_175 VDD VSS sg13g2_decap_8
+Xclkload6 clkload6/X clkload6/A VDD VSS sg13g2_buf_1
+XFILLER_1_77 VDD VSS sg13g2_decap_8
+X_164_ _167_/S _157_/A _168_/B _164_/C VDD VSS sg13g2_nand3b_1
+Xi_ctrl0\[6\]$_DFFE_PP0P_ _188_/A1 clkload6/A _131_/X place89/A VDD VSS sg13g2_dfrbpq_1
+Xtx_bits_d1\[4\]$_DFF_N__24 tx_bits_d1\[4\]$_DFF_N__24/L_HI VDD VSS sg13g2_tiehi
+X_147_ _147_/X _170_/A3 _194_/A1 _154_/S VDD VSS sg13g2_mux2_1
+Xoutput19 ctrl0[7] _191_/A1 VDD VSS sg13g2_buf_1
+XFILLER_7_98 VDD VSS sg13g2_fill_1
+XFILLER_21_188 VDD VSS sg13g2_decap_8
+XFILLER_16_0 VDD VSS sg13g2_decap_8
+XFILLER_5_107 VDD VSS sg13g2_fill_2
+XFILLER_5_129 VDD VSS sg13g2_decap_8
+XFILLER_4_151 VDD VSS sg13g2_decap_8
+X_180_ _180_/Y _192_/A _179_/X VDD VSS sg13g2_nor2b_1
+Xtx_bits_d0\[3\]$_DFFE_NP__15 tx_bits_d0\[3\]$_DFFE_NP__15/L_HI VDD VSS sg13g2_tiehi
+XFILLER_1_154 VDD VSS sg13g2_decap_8
+Xclkload7 clkload7/X clkload7/A VDD VSS sg13g2_buf_1
+Xi_ctrl2\[0\]$_DFFE_PP0P_ _170_/A3 clkload4/A _147_/X place89/X VDD VSS sg13g2_dfrbpq_1
+X_163_ _168_/B _163_/A _163_/B _200_/S VDD VSS sg13g2_nor3_1
+XFILLER_1_56 VDD VSS sg13g2_decap_8
+Xplace90 place90/X _103_/Y VDD VSS sg13g2_buf_4
+X_146_ _154_/S _160_/B _146_/B _146_/C _146_/D VDD VSS sg13g2_nor4_2
+Xi_ctrl1\[7\]$_DFFE_PP0P_ _191_/A2 clkload5/A _142_/X place89/A VDD VSS sg13g2_dfrbpq_1
+XFILLER_21_167 VDD VSS sg13g2_decap_8
+X_129_ _129_/X _182_/A1 _198_/A1 _132_/S VDD VSS sg13g2_mux2_1
+XFILLER_4_130 VDD VSS sg13g2_decap_8
+XFILLER_1_133 VDD VSS sg13g2_decap_8
+Xclkload8 clkload8/X clkload8/A VDD VSS sg13g2_buf_1
+X_162_ _162_/Y _163_/B _162_/B VDD VSS sg13g2_xnor2_1
+XFILLER_6_0 VDD VSS sg13g2_decap_8
+XFILLER_1_35 VDD VSS sg13g2_decap_8
+Xinput1 _203_/B cs VDD VSS sg13g2_buf_8
+X_145_ _146_/D _145_/A _145_/B VDD VSS sg13g2_nand2_1
+XFILLER_18_184 VDD VSS sg13g2_decap_8
+Xplace91 _197_/S _200_/S VDD VSS sg13g2_buf_4
+XFILLER_21_21 VDD VSS sg13g2_decap_8
+XFILLER_15_165 VDD VSS sg13g2_fill_2
+XFILLER_15_154 VDD VSS sg13g2_fill_1
+X_128_ _128_/X _179_/A1 _197_/A1 _132_/S VDD VSS sg13g2_mux2_1
+XFILLER_21_0 VDD VSS sg13g2_decap_8
+XFILLER_5_109 VDD VSS sg13g2_fill_1
+Xtx_bits_d0\[7\]$_DFFE_NP__19 tx_bits_d0\[7\]$_DFFE_NP__19/L_HI VDD VSS sg13g2_tiehi
+XFILLER_4_186 VDD VSS sg13g2_decap_8
+XFILLER_1_189 VDD VSS sg13g2_decap_4
+XFILLER_1_112 VDD VSS sg13g2_decap_8
+Xclkload9 clkload9/Y clkload9/A VDD VSS sg13g2_inv_1
+X_161_ _162_/B _163_/A _168_/A VDD VSS sg13g2_nand2_1
+Xtx_bits_d1\[0\]$_DFF_N__20 tx_bits_d1\[0\]$_DFF_N__20/L_HI VDD VSS sg13g2_tiehi
+XFILLER_1_14 VDD VSS sg13g2_decap_8
+Xinput2 input2/X din VDD VSS sg13g2_buf_4
+X_127_ _127_/X _176_/A1 _196_/A1 _132_/S VDD VSS sg13g2_mux2_1
+Xrx_tmp\[7\]$_DFFE_PN__10 rx_tmp\[7\]$_DFFE_PN__10/L_HI VDD VSS sg13g2_tiehi
+XFILLER_14_0 VDD VSS sg13g2_decap_8
+XFILLER_4_165 VDD VSS sg13g2_decap_8
+XFILLER_1_168 VDD VSS sg13g2_decap_8
+XFILLER_5_90 VDD VSS sg13g2_fill_2
+Xi_ctrl0\[3\]$_DFFE_PP0P_ _179_/A1 clkload9/A _128_/X place90/X VDD VSS sg13g2_dfrbpq_1
+X_160_ _160_/Y _163_/A _160_/B VDD VSS sg13g2_xnor2_1
+Xinput3 _200_/S reset VDD VSS sg13g2_buf_4
+XFILLER_19_77 VDD VSS sg13g2_fill_2
+XFILLER_18_7 VDD VSS sg13g2_decap_8
+Xclkbuf_leaf_0_sclk _118__2/A clkbuf_leaf_4_sclk/A VDD VSS sg13g2_buf_8
+XFILLER_2_91 VDD VSS sg13g2_decap_8
+XFILLER_7_14 VDD VSS sg13g2_decap_4
+XFILLER_7_69 VDD VSS sg13g2_fill_2
+X_126_ _126_/X _173_/A1 _195_/A1 _132_/S VDD VSS sg13g2_mux2_1
+XFILLER_20_181 VDD VSS sg13g2_decap_8
+XFILLER_4_144 VDD VSS sg13g2_decap_8
+XFILLER_1_147 VDD VSS sg13g2_decap_8
+XFILLER_13_68 VDD VSS sg13g2_fill_2
+X_118__10 _118__10/Y _118__2/A VDD VSS sg13g2_inv_1
+XFILLER_1_49 VDD VSS sg13g2_decap_8
+Xinput4 input4/X stat0[0] VDD VSS sg13g2_buf_1
+X_142_ _142_/X _191_/A2 input2/X _142_/S VDD VSS sg13g2_mux2_1
+Xi_ctrl1\[4\]$_DFFE_PP0P_ _182_/A2 clkload7/A _139_/X place90/X VDD VSS sg13g2_dfrbpq_1
+XFILLER_4_0 VDD VSS sg13g2_decap_4
+Xplace83 _202_/B _172_/S VDD VSS sg13g2_buf_4
+XFILLER_2_70 VDD VSS sg13g2_decap_8
+X_125_ _125_/X _170_/A1 _194_/A1 _132_/S VDD VSS sg13g2_mux2_1
+XFILLER_20_160 VDD VSS sg13g2_decap_8
+X_108_ _172_/S _168_/A _105_/Y _106_/Y _107_/Y VDD VSS sg13g2_a22oi_1
+XFILLER_11_171 VDD VSS sg13g2_fill_1
+XFILLER_11_193 VDD VSS sg13g2_fill_2
+XFILLER_4_123 VDD VSS sg13g2_decap_8
+XFILLER_1_126 VDD VSS sg13g2_decap_8
+XFILLER_8_7 VDD VSS sg13g2_fill_2
+X_118__11 _118__11/Y _118__2/A VDD VSS sg13g2_inv_1
+XFILLER_1_28 VDD VSS sg13g2_decap_8
+Xinput5 input5/X stat0[1] VDD VSS sg13g2_buf_1
+Xclkbuf_3_4__f_sclk_regs clkload6/A clkbuf_0_sclk_regs/X VDD VSS sg13g2_buf_4
+XFILLER_19_24 VDD VSS sg13g2_fill_2
+X_141_ _141_/X _188_/A2 _200_/A1 _142_/S VDD VSS sg13g2_mux2_1
+Xplace84 _184_/S _202_/B VDD VSS sg13g2_buf_4
+XFILLER_21_14 VDD VSS sg13g2_decap_8
+X_124_ _132_/S _160_/B _146_/B _146_/C _124_/D VDD VSS sg13g2_nor4_2
+XFILLER_23_7 VDD VSS sg13g2_decap_8
+Xi_ctrl2\[5\]$_DFFE_PP0P_ _185_/A3 clkload7/A _152_/X place90/X VDD VSS sg13g2_dfrbpq_1
+XFILLER_16_14 VDD VSS sg13g2_fill_2
+X_107_ _107_/Y _164_/C _157_/A VDD VSS sg13g2_nor2_1
+XFILLER_4_102 VDD VSS sg13g2_decap_8
+XFILLER_4_179 VDD VSS sg13g2_decap_8
+XFILLER_12_0 VDD VSS sg13g2_decap_8
+XFILLER_1_105 VDD VSS sg13g2_decap_8
+XFILLER_0_193 VDD VSS sg13g2_fill_2
+XFILLER_0_182 VDD VSS sg13g2_decap_8
+Xclkbuf_leaf_3_sclk _118__8/A clkload0/A VDD VSS sg13g2_buf_8
+X_118__12 _118__12/Y _118__4/A VDD VSS sg13g2_inv_1
+XFILLER_19_14 VDD VSS sg13g2_decap_4
+Xinput6 input6/X stat0[2] VDD VSS sg13g2_buf_1
+X_140_ _140_/X _185_/A2 _199_/A1 _142_/S VDD VSS sg13g2_mux2_1
+Xplace85 _192_/A _167_/A1 VDD VSS sg13g2_buf_4
+XFILLER_16_7 VDD VSS sg13g2_decap_8
+X_123_ _124_/D _145_/B _145_/A VDD VSS sg13g2_nand2b_1
+X_106_ _106_/Y _163_/B _163_/A VDD VSS sg13g2_nor2b_1
+XFILLER_4_158 VDD VSS sg13g2_decap_8
+X_118__1 _118__1/Y _118__2/A VDD VSS sg13g2_inv_1
+XFILLER_8_9 VDD VSS sg13g2_fill_1
+XFILLER_13_27 VDD VSS sg13g2_fill_2
+XFILLER_0_161 VDD VSS sg13g2_decap_8
+Xi_ctrl0\[0\]$_DFFE_PP0P_ _170_/A1 clkload4/A _125_/X place89/X VDD VSS sg13g2_dfrbpq_1
+X_118__13 _118__13/Y _118__4/A VDD VSS sg13g2_inv_1
+Xinput7 input7/X stat0[3] VDD VSS sg13g2_buf_1
+XFILLER_2_84 VDD VSS sg13g2_decap_8
+Xplace86 _191_/S1 _145_/B VDD VSS sg13g2_buf_4
+X_199_ _199_/X _200_/A1 _199_/A1 _200_/S VDD VSS sg13g2_mux2_1
+XFILLER_23_193 VDD VSS sg13g2_fill_2
+XFILLER_23_182 VDD VSS sg13g2_decap_8
+Xtx_bits_d1\[3\]$_DFF_N_ _113_/A1 _118__5/Y _114_/X tx_bits_d1\[3\]$_DFF_N__23/L_HI
++ VDD VSS sg13g2_dfrbpq_1
+XFILLER_2_0 VDD VSS sg13g2_decap_8
+X_122_ _146_/C _167_/A1 _122_/B VDD VSS sg13g2_nand2b_2
+Xinput10 _188_/A0 stat0[6] VDD VSS sg13g2_buf_1
+Xrx_tmp\[4\]$_DFFE_PN__7 rx_tmp\[4\]$_DFFE_PN__7/L_HI VDD VSS sg13g2_tiehi
+XFILLER_16_16 VDD VSS sg13g2_fill_1
+XFILLER_14_193 VDD VSS sg13g2_fill_2
+XFILLER_20_174 VDD VSS sg13g2_decap_8
+X_105_ _105_/Y _163_/A _163_/B VDD VSS sg13g2_nor2_1
+Xtx_bits_d1\[5\]$_DFF_N__25 tx_bits_d1\[5\]$_DFF_N__25/L_HI VDD VSS sg13g2_tiehi
+X_118__2 _118__2/Y _118__2/A VDD VSS sg13g2_inv_1
+XFILLER_4_137 VDD VSS sg13g2_decap_8
+XFILLER_3_192 VDD VSS sg13g2_fill_2
+Xrx_addr\[1\]$_DFFE_PP__2 rx_addr\[1\]$_DFFE_PP__2/L_HI VDD VSS sg13g2_tiehi
+XFILLER_13_39 VDD VSS sg13g2_fill_1
+XFILLER_0_140 VDD VSS sg13g2_decap_8
+X_118__14 _118__14/Y _118__6/A VDD VSS sg13g2_inv_1
+XFILLER_6_7 VDD VSS sg13g2_fill_2
+Xinput8 input8/X stat0[4] VDD VSS sg13g2_buf_1
+Xi_ctrl1\[1\]$_DFFE_PP0P_ _173_/A2 clkload5/A _136_/X place89/X VDD VSS sg13g2_dfrbpq_1
+Xplace87 _145_/A _188_/S0 VDD VSS sg13g2_buf_4
+X_198_ _198_/X _199_/A1 _198_/A1 _200_/S VDD VSS sg13g2_mux2_1
+XFILLER_4_4 VDD VSS sg13g2_fill_1
+XFILLER_21_28 VDD VSS sg13g2_decap_8
+XFILLER_2_63 VDD VSS sg13g2_decap_8
+XFILLER_23_161 VDD VSS sg13g2_decap_8
+Xtx_bits_d0\[2\]$_DFFE_NP__14 tx_bits_d0\[2\]$_DFFE_NP__14/L_HI VDD VSS sg13g2_tiehi
+Xinput11 _191_/A0 stat0[7] VDD VSS sg13g2_buf_1
+XFILLER_22_71 VDD VSS sg13g2_fill_1
+XFILLER_21_7 VDD VSS sg13g2_decap_8
+X_104_ _168_/A _164_/C _157_/A VDD VSS sg13g2_and2_2
+XFILLER_11_186 VDD VSS sg13g2_decap_8
+X_118__3 _118__3/Y _118__4/A VDD VSS sg13g2_inv_1
+XFILLER_4_116 VDD VSS sg13g2_decap_8
+XFILLER_1_119 VDD VSS sg13g2_decap_8
+XFILLER_3_171 VDD VSS sg13g2_decap_8
+XFILLER_10_0 VDD VSS sg13g2_decap_8
+X_118__15 _118__15/Y _118__6/A VDD VSS sg13g2_inv_1
+Xinput9 input9/X stat0[5] VDD VSS sg13g2_buf_1
+X_197_ _197_/X _198_/A1 _197_/A1 _197_/S VDD VSS sg13g2_mux2_1
+Xplace88 place89/A _103_/Y VDD VSS sg13g2_buf_4
+Xi_ctrl2\[2\]$_DFFE_PP0P_ _176_/A3 clkload8/A _149_/X place89/X VDD VSS sg13g2_dfrbpq_1
+XFILLER_2_42 VDD VSS sg13g2_decap_8
+X_120_ _146_/B _163_/A _163_/B VDD VSS sg13g2_nand2b_2
+XFILLER_11_73 VDD VSS sg13g2_fill_2
+XFILLER_14_151 VDD VSS sg13g2_fill_2
+X_103_ _103_/Y _197_/S VDD VSS sg13g2_inv_2
+XFILLER_14_7 VDD VSS sg13g2_decap_4
+X_118__4 _118__4/Y _118__4/A VDD VSS sg13g2_inv_1
+XFILLER_6_180 VDD VSS sg13g2_decap_8
+XFILLER_3_150 VDD VSS sg13g2_decap_8
+XFILLER_3_194 VDD VSS sg13g2_fill_1
+XFILLER_0_175 VDD VSS sg13g2_decap_8
+XFILLER_6_9 VDD VSS sg13g2_fill_1
+X_118__16 _118__16/Y _118__8/A VDD VSS sg13g2_inv_1
+XFILLER_19_18 VDD VSS sg13g2_fill_2
+Xtx_bits_d0\[6\]$_DFFE_NP__18 tx_bits_d0\[6\]$_DFFE_NP__18/L_HI VDD VSS sg13g2_tiehi
+Xplace89 place89/X place89/A VDD VSS sg13g2_buf_4
+XFILLER_17_193 VDD VSS sg13g2_fill_2
+XFILLER_17_182 VDD VSS sg13g2_decap_8
+X_196_ _196_/X _197_/A1 _196_/A1 _197_/S VDD VSS sg13g2_mux2_1
+XFILLER_2_98 VDD VSS sg13g2_decap_8
+XFILLER_2_21 VDD VSS sg13g2_decap_8
+Xtx_bits_d1\[1\]$_DFF_N__21 tx_bits_d1\[1\]$_DFF_N__21/L_HI VDD VSS sg13g2_tiehi
+X_179_ _179_/X input7/X _179_/A1 _179_/A2 _179_/A3 _188_/S0 _191_/S1 VDD VSS sg13g2_mux4_1
+XFILLER_20_188 VDD VSS sg13g2_decap_8
+XFILLER_0_0 VDD VSS sg13g2_decap_8
+Xre_cnt\[1\]$_DFFE_PN0P_ _164_/C rx_op$_DFFE_PP_/CLK _159_/Y _203_/B VDD VSS sg13g2_dfrbpq_2
+XFILLER_7_126 VDD VSS sg13g2_fill_1
+X_118__5 _118__5/Y _118__6/A VDD VSS sg13g2_inv_1
+XFILLER_0_154 VDD VSS sg13g2_decap_8
+X_118__17 _118__17/Y _118__9/A VDD VSS sg13g2_inv_1
+Xi_dout_en$_DFFE_NN0P_ _203_/A _118__17/Y _155_/X _203_/B VDD VSS sg13g2_dfrbpq_1
+XFILLER_18_117 VDD VSS sg13g2_fill_1
+XFILLER_18_106 VDD VSS sg13g2_fill_1
+Xrx_addr\[2\]$_DFFE_PP_ _167_/A1 clkload3/A _167_/X rx_addr\[2\]$_DFFE_PP__3/L_HI
++ VDD VSS sg13g2_dfrbpq_1
+XFILLER_2_77 VDD VSS sg13g2_decap_8
+X_195_ _195_/X _196_/A1 _195_/A1 _197_/S VDD VSS sg13g2_mux2_1
+XFILLER_23_175 VDD VSS sg13g2_decap_8
+XFILLER_20_167 VDD VSS sg13g2_decap_8
+X_178_ _178_/X _177_/Y _178_/A1 _184_/S VDD VSS sg13g2_mux2_1
+X_118__6 _118__6/Y _118__6/A VDD VSS sg13g2_inv_1
+XFILLER_3_185 VDD VSS sg13g2_decap_8
+Xclkbuf_3_0__f_sclk_regs rx_op$_DFFE_PP_/CLK clkbuf_0_sclk_regs/X VDD VSS sg13g2_buf_4
+XFILLER_0_133 VDD VSS sg13g2_decap_8
+Xrx_op$_DFFE_PP__4 rx_op$_DFFE_PP__4/L_HI VDD VSS sg13g2_tiehi
+Xrx_addr\[1\]$_DFFE_PP_ _145_/B clkload3/A _166_/X rx_addr\[1\]$_DFFE_PP__2/L_HI VDD
++ VSS sg13g2_dfrbpq_2
+XFILLER_2_56 VDD VSS sg13g2_decap_8
+X_194_ _194_/X _195_/A1 _194_/A1 _197_/S VDD VSS sg13g2_mux2_1
+XFILLER_23_154 VDD VSS sg13g2_decap_8
+Xclkbuf_3_5__f_sclk_regs clkload7/A clkbuf_0_sclk_regs/X VDD VSS sg13g2_buf_4
+XFILLER_20_124 VDD VSS sg13g2_fill_2
+Xi_ctrl0\[5\]$_DFFE_PP0P_ _185_/A1 clkload7/A _130_/X _103_/Y VDD VSS sg13g2_dfrbpq_1
+X_177_ _177_/Y _192_/A _176_/X VDD VSS sg13g2_nor2b_1
+XFILLER_11_179 VDD VSS sg13g2_decap_8
+XFILLER_6_194 VDD VSS sg13g2_fill_1
+XFILLER_19_0 VDD VSS sg13g2_decap_8
+XFILLER_4_109 VDD VSS sg13g2_decap_8
+X_118__7 _118__7/Y _118__8/A VDD VSS sg13g2_inv_1
+XFILLER_3_164 VDD VSS sg13g2_decap_8
+XFILLER_12_7 VDD VSS sg13g2_fill_2
+Xrx_addr\[0\]$_DFFE_PP_ _188_/S0 clkload3/A _165_/X rx_addr\[0\]$_DFFE_PP__1/L_HI
++ VDD VSS sg13g2_dfrbpq_2
+XFILLER_0_189 VDD VSS sg13g2_decap_4
+XFILLER_0_112 VDD VSS sg13g2_decap_8
+Xrx_tmp\[8\]$_DFFE_PN_ _200_/A1 clkload3/A _200_/X rx_tmp\[8\]$_DFFE_PN__11/L_HI VDD
++ VSS sg13g2_dfrbpq_2
+X_193_ _193_/X _192_/Y _201_/A _202_/B VDD VSS sg13g2_mux2_1
+XFILLER_17_141 VDD VSS sg13g2_fill_1
+XFILLER_2_35 VDD VSS sg13g2_decap_8
+X_176_ _176_/X input6/X _176_/A1 _176_/A2 _176_/A3 _145_/A _191_/S1 VDD VSS sg13g2_mux4_1
+XFILLER_9_192 VDD VSS sg13g2_fill_2
+XFILLER_22_21 VDD VSS sg13g2_decap_8
+Xi_ctrl1\[6\]$_DFFE_PP0P_ _188_/A2 clkload6/A _141_/X place89/A VDD VSS sg13g2_dfrbpq_1
+X_159_ _159_/Y _158_/Y _157_/Y _168_/A VDD VSS sg13g2_a21oi_1
+XFILLER_6_173 VDD VSS sg13g2_decap_8
+X_118__8 _118__8/Y _118__8/A VDD VSS sg13g2_inv_1
+Xclkbuf_0_sclk clkbuf_0_sclk/X sclk VDD VSS sg13g2_buf_4
+XFILLER_3_143 VDD VSS sg13g2_decap_8
+XFILLER_0_168 VDD VSS sg13g2_decap_8
+Xrx_tmp\[7\]$_DFFE_PN_ _199_/A1 clkload6/A _199_/X rx_tmp\[7\]$_DFFE_PN__10/L_HI VDD
++ VSS sg13g2_dfrbpq_2
+X_192_ _192_/Y _192_/A _191_/X VDD VSS sg13g2_nor2b_1
+XFILLER_2_14 VDD VSS sg13g2_decap_8
+XFILLER_9_0 VDD VSS sg13g2_decap_8
+XFILLER_23_189 VDD VSS sg13g2_decap_4
+XFILLER_23_101 VDD VSS sg13g2_fill_1
+XFILLER_2_7 VDD VSS sg13g2_decap_8
+X_175_ _175_/X _174_/Y _175_/A1 _184_/S VDD VSS sg13g2_mux2_1
+XFILLER_11_159 VDD VSS sg13g2_decap_4
+X_158_ _158_/Y _164_/C VDD VSS sg13g2_inv_1
+X_118__9 _118__9/Y _118__9/A VDD VSS sg13g2_inv_1
+XFILLER_3_122 VDD VSS sg13g2_decap_8
+Xi_ctrl2\[7\]$_DFFE_PP0P_ _191_/A3 clkload5/A _154_/X place89/A VDD VSS sg13g2_dfrbpq_1
+XFILLER_12_9 VDD VSS sg13g2_fill_1
+Xrx_tmp\[6\]$_DFFE_PN_ _198_/A1 clkload6/A _198_/X rx_tmp\[6\]$_DFFE_PN__9/L_HI VDD
++ VSS sg13g2_dfrbpq_2
+XFILLER_0_91 VDD VSS sg13g2_decap_8
+XFILLER_0_147 VDD VSS sg13g2_decap_8
+XFILLER_5_47 VDD VSS sg13g2_fill_2
+X_191_ _191_/X _191_/A0 _191_/A1 _191_/A2 _191_/A3 _145_/A _191_/S1 VDD VSS sg13g2_mux4_1
+XFILLER_23_168 VDD VSS sg13g2_decap_8
+X_174_ _174_/Y _192_/A _173_/X VDD VSS sg13g2_nor2b_1
+XFILLER_9_194 VDD VSS sg13g2_fill_1
+XFILLER_3_80 VDD VSS sg13g2_decap_8
+X_157_ _157_/Y _157_/A _157_/B VDD VSS sg13g2_nand2_1
+Xrx_tmp\[5\]$_DFFE_PN_ _197_/A1 clkload8/A _197_/X rx_tmp\[5\]$_DFFE_PN__8/L_HI VDD
++ VSS sg13g2_dfrbpq_2
+XFILLER_3_101 VDD VSS sg13g2_decap_8
+XFILLER_3_178 VDD VSS sg13g2_decap_8
+XFILLER_17_0 VDD VSS sg13g2_decap_8
+XFILLER_0_70 VDD VSS sg13g2_decap_8
+Xtx_bits_d1\[6\]$_DFF_N__26 tx_bits_d1\[6\]$_DFF_N__26/L_HI VDD VSS sg13g2_tiehi
+XFILLER_0_126 VDD VSS sg13g2_decap_8
+XFILLER_10_7 VDD VSS sg13g2_decap_8
+Xtx_bits_d1\[2\]$_DFF_N_ _112_/A1 _118__6/Y _113_/X tx_bits_d1\[2\]$_DFF_N__22/L_HI
++ VDD VSS sg13g2_dfrbpq_1
+X_190_ _190_/X _189_/Y _190_/A1 _202_/B VDD VSS sg13g2_mux2_1
+XFILLER_2_49 VDD VSS sg13g2_decap_8
+Xi_ctrl0\[2\]$_DFFE_PP0P_ _176_/A1 clkload8/A _127_/X place89/X VDD VSS sg13g2_dfrbpq_1
+XFILLER_11_14 VDD VSS sg13g2_fill_2
+X_173_ _173_/X input5/X _173_/A1 _173_/A2 _173_/A3 _145_/A _191_/S1 VDD VSS sg13g2_mux4_1
+Xrx_tmp\[4\]$_DFFE_PN_ _196_/A1 clkload8/A _196_/X rx_tmp\[4\]$_DFFE_PN__7/L_HI VDD
++ VSS sg13g2_dfrbpq_2
+X_156_ _157_/B _164_/C _163_/A _163_/B VDD VSS sg13g2_nand3b_1
+XFILLER_6_187 VDD VSS sg13g2_decap_8
+Xrx_op$_DFFE_PP_ _122_/B rx_op$_DFFE_PP_/CLK _169_/X rx_op$_DFFE_PP__4/L_HI VDD VSS
++ sg13g2_dfrbpq_1
+XFILLER_3_157 VDD VSS sg13g2_decap_8
+X_139_ _139_/X _182_/A2 _198_/A1 _142_/S VDD VSS sg13g2_mux2_1
+XFILLER_0_105 VDD VSS sg13g2_decap_8
+Xtx_bits_d0\[1\]$_DFFE_NP__13 tx_bits_d0\[1\]$_DFFE_NP__13/L_HI VDD VSS sg13g2_tiehi
+Xclkbuf_leaf_2_sclk _118__6/A clkload0/A VDD VSS sg13g2_buf_8
+Xtx_bits_d1\[6\]$_DFF_N_ _116_/A1 _118__2/Y _117_/X tx_bits_d1\[6\]$_DFF_N__26/L_HI
++ VDD VSS sg13g2_dfrbpq_1
+XFILLER_2_28 VDD VSS sg13g2_decap_8
+XFILLER_17_189 VDD VSS sg13g2_decap_4
+Xrx_tmp\[3\]$_DFFE_PN_ _195_/A1 clkload5/A _195_/X rx_tmp\[3\]$_DFFE_PN__6/L_HI VDD
++ VSS sg13g2_dfrbpq_2
+XFILLER_23_148 VDD VSS sg13g2_fill_2
+XFILLER_7_0 VDD VSS sg13g2_decap_8
+X_172_ _172_/X _171_/Y _172_/A1 _172_/S VDD VSS sg13g2_mux2_1
+Xi_ctrl1\[3\]$_DFFE_PP0P_ _179_/A2 clkload9/A _138_/X place90/X VDD VSS sg13g2_dfrbpq_1
+XFILLER_22_69 VDD VSS sg13g2_fill_2
+XFILLER_22_14 VDD VSS sg13g2_decap_8
+XFILLER_9_174 VDD VSS sg13g2_fill_1
+XFILLER_0_7 VDD VSS sg13g2_decap_8
+X_155_ _155_/X _107_/Y _106_/Y _203_/A VDD VSS sg13g2_a21o_1
+XFILLER_6_166 VDD VSS sg13g2_decap_8
+XFILLER_17_69 VDD VSS sg13g2_fill_1
+XFILLER_3_136 VDD VSS sg13g2_decap_8
+X_138_ _138_/X _179_/A2 _197_/A1 _142_/S VDD VSS sg13g2_mux2_1
+XFILLER_22_0 VDD VSS sg13g2_decap_8
+Xrx_tmp\[2\]$_DFFE_PN_ _194_/A1 clkload5/A _194_/X rx_tmp\[2\]$_DFFE_PN__5/L_HI VDD
++ VSS sg13g2_dfrbpq_2
+XFILLER_22_193 VDD VSS sg13g2_fill_2
+X_171_ _171_/Y _192_/A _170_/X VDD VSS sg13g2_nor2b_1
+XFILLER_3_61 VDD VSS sg13g2_fill_1
+XFILLER_3_94 VDD VSS sg13g2_decap_8
+XFILLER_13_193 VDD VSS sg13g2_fill_2
+XFILLER_6_101 VDD VSS sg13g2_fill_2
+Xtx_bits_d1\[2\]$_DFF_N__22 tx_bits_d1\[2\]$_DFF_N__22/L_HI VDD VSS sg13g2_tiehi
+X_154_ _154_/X _191_/A3 input2/X _154_/S VDD VSS sg13g2_mux2_1
+Xi_ctrl2\[4\]$_DFFE_PP0P_ _182_/A3 clkload9/A _151_/X place90/X VDD VSS sg13g2_dfrbpq_1
+XFILLER_3_115 VDD VSS sg13g2_decap_8
+Xtx_bits_d0\[5\]$_DFFE_NP__17 tx_bits_d0\[5\]$_DFFE_NP__17/L_HI VDD VSS sg13g2_tiehi
+X_137_ _137_/X _176_/A2 _196_/A1 _142_/S VDD VSS sg13g2_mux2_1
+Xrx_tmp\[6\]$_DFFE_PN__9 rx_tmp\[6\]$_DFFE_PN__9/L_HI VDD VSS sg13g2_tiehi
+XFILLER_0_84 VDD VSS sg13g2_decap_8
+XFILLER_15_0 VDD VSS sg13g2_decap_8
+Xclkbuf_3_1__f_sclk_regs clkload3/A clkbuf_0_sclk_regs/X VDD VSS sg13g2_buf_4
+Xtx_bits_d1\[7\]$_SDFF_NP0_ _117_/A1 _118__1/Y _202_/Y tx_bits_d1\[7\]$_SDFF_NP0__27/L_HI
++ VDD VSS sg13g2_dfrbpq_1
+XFILLER_16_191 VDD VSS sg13g2_decap_4
+Xtx_bits_d1\[7\]$_SDFF_NP0__27 tx_bits_d1\[7\]$_SDFF_NP0__27/L_HI VDD VSS sg13g2_tiehi
+XFILLER_22_172 VDD VSS sg13g2_decap_8
+X_170_ _170_/X input4/X _170_/A1 _170_/A2 _170_/A3 _145_/A _191_/S1 VDD VSS sg13g2_mux4_1
+XFILLER_3_73 VDD VSS sg13g2_decap_8
+XFILLER_19_7 VDD VSS sg13g2_decap_8
+X_153_ _153_/X _188_/A3 _200_/A1 _154_/S VDD VSS sg13g2_mux2_1
+XFILLER_6_113 VDD VSS sg13g2_fill_2
+Xclkbuf_3_6__f_sclk_regs clkload8/A clkbuf_0_sclk_regs/X VDD VSS sg13g2_buf_4
+Xrx_tmp\[3\]$_DFFE_PN__6 rx_tmp\[3\]$_DFFE_PN__6/L_HI VDD VSS sg13g2_tiehi
+X_136_ _136_/X _173_/A2 _195_/A1 _142_/S VDD VSS sg13g2_mux2_1
+XFILLER_2_193 VDD VSS sg13g2_fill_2
+XFILLER_2_182 VDD VSS sg13g2_decap_8
+XFILLER_0_63 VDD VSS sg13g2_decap_8
+XFILLER_0_119 VDD VSS sg13g2_decap_8
+X_119_ _160_/B _164_/C _157_/A VDD VSS sg13g2_nand2_2
+Xre_cnt\[3\]$_DFFE_PN0P_ _163_/B rx_op$_DFFE_PP_/CLK _162_/Y _203_/B VDD VSS sg13g2_dfrbpq_2
+Xrx_addr\[0\]$_DFFE_PP__1 rx_addr\[0\]$_DFFE_PP__1/L_HI VDD VSS sg13g2_tiehi
+XFILLER_22_151 VDD VSS sg13g2_decap_8
+XFILLER_22_28 VDD VSS sg13g2_decap_4
+X_152_ _152_/X _185_/A3 _199_/A1 _154_/S VDD VSS sg13g2_mux2_1
+XFILLER_5_0 VDD VSS sg13g2_decap_8
+XFILLER_17_28 VDD VSS sg13g2_fill_2
+XFILLER_2_161 VDD VSS sg13g2_decap_8
+XFILLER_0_42 VDD VSS sg13g2_decap_8
+X_135_ _135_/X _170_/A2 _194_/A1 _142_/S VDD VSS sg13g2_mux2_1
+XFILLER_20_0 VDD VSS sg13g2_decap_8
+Xclkbuf_0_sclk_regs clkbuf_0_sclk_regs/X clkbuf_0_sclk_regs/A VDD VSS sg13g2_buf_4
+XFILLER_9_7 VDD VSS sg13g2_decap_4
+Xclkbuf_1_1__f_sclk clkload0/A clkbuf_0_sclk/X VDD VSS sg13g2_buf_4
+Xi_ctrl1\[0\]$_DFFE_PP0P_ _170_/A2 clkload4/A _135_/X place89/X VDD VSS sg13g2_dfrbpq_1
+XFILLER_13_152 VDD VSS sg13g2_fill_1
+X_151_ _151_/X _182_/A3 _198_/A1 _154_/S VDD VSS sg13g2_mux2_1
+XFILLER_6_115 VDD VSS sg13g2_fill_1
+XFILLER_10_188 VDD VSS sg13g2_decap_8
+XFILLER_5_192 VDD VSS sg13g2_fill_2
+XFILLER_3_129 VDD VSS sg13g2_decap_8
+XFILLER_2_140 VDD VSS sg13g2_decap_8
+XFILLER_0_98 VDD VSS sg13g2_decap_8
+XFILLER_0_21 VDD VSS sg13g2_decap_8
+X_203_ _203_/X _203_/A _203_/B VDD VSS sg13g2_and2_1
+X_134_ _142_/S _160_/B _146_/B _146_/C _134_/D VDD VSS sg13g2_nor4_2
+Xi_ctrl0\[7\]$_DFFE_PP0P_ _191_/A1 clkload3/A _132_/X place89/A VDD VSS sg13g2_dfrbpq_1
+X_117_ _117_/X _190_/A1 _117_/A1 _202_/B VDD VSS sg13g2_mux2_1
+XFILLER_20_84 VDD VSS sg13g2_fill_2
+XFILLER_20_51 VDD VSS sg13g2_fill_1
+Xtx_bits_d0\[7\]$_DFFE_NP_ _201_/A _118__9/Y _193_/X tx_bits_d0\[7\]$_DFFE_NP__19/L_HI
++ VDD VSS sg13g2_dfrbpq_1
+XFILLER_13_0 VDD VSS sg13g2_decap_8
+XFILLER_22_186 VDD VSS sg13g2_decap_8
+XFILLER_9_157 VDD VSS sg13g2_fill_2
+XFILLER_3_54 VDD VSS sg13g2_fill_2
+XFILLER_3_87 VDD VSS sg13g2_decap_8
+X_150_ _150_/X _179_/A3 _197_/A1 _154_/S VDD VSS sg13g2_mux2_1
+XFILLER_12_85 VDD VSS sg13g2_fill_2
+XFILLER_5_171 VDD VSS sg13g2_decap_8
+Xi_ctrl2\[1\]$_DFFE_PP0P_ _173_/A3 clkload4/A _148_/X place89/X VDD VSS sg13g2_dfrbpq_1
+XFILLER_3_108 VDD VSS sg13g2_decap_8
+XFILLER_23_95 VDD VSS sg13g2_fill_2
+XFILLER_17_7 VDD VSS sg13g2_decap_8
+X_133_ _134_/D _145_/A _145_/B VDD VSS sg13g2_nand2b_1
+X_202_ _202_/Y _202_/A _202_/B VDD VSS sg13g2_nor2_1
+XFILLER_0_77 VDD VSS sg13g2_decap_8
+X_116_ _116_/X _187_/A1 _116_/A1 _202_/B VDD VSS sg13g2_mux2_1
+Xtx_bits_d0\[6\]$_DFFE_NP_ _190_/A1 _118__10/Y _190_/X tx_bits_d0\[6\]$_DFFE_NP__18/L_HI
++ VDD VSS sg13g2_dfrbpq_1
+XFILLER_6_32 VDD VSS sg13g2_fill_2
+XFILLER_19_181 VDD VSS sg13g2_decap_8
+XFILLER_16_151 VDD VSS sg13g2_fill_1
+XFILLER_22_165 VDD VSS sg13g2_decap_8
+XFILLER_3_33 VDD VSS sg13g2_decap_4
+XFILLER_3_66 VDD VSS sg13g2_decap_8
+XFILLER_13_121 VDD VSS sg13g2_fill_1
+XFILLER_10_157 VDD VSS sg13g2_fill_1
+XFILLER_5_150 VDD VSS sg13g2_decap_8
+XFILLER_5_194 VDD VSS sg13g2_fill_1
+XFILLER_3_0 VDD VSS sg13g2_decap_4
+XFILLER_2_175 VDD VSS sg13g2_decap_8
+X_132_ _132_/X _191_/A1 input2/X _132_/S VDD VSS sg13g2_mux2_1
+X_201_ _202_/A _201_/A VDD VSS sg13g2_inv_1
+Xtx_bits_d0\[5\]$_DFFE_NP_ _187_/A1 _118__11/Y _187_/X tx_bits_d0\[5\]$_DFFE_NP__17/L_HI
++ VDD VSS sg13g2_dfrbpq_1
+XFILLER_0_56 VDD VSS sg13g2_decap_8
+Xre_cnt\[0\]$_DFFE_PN0P_ _157_/A rx_op$_DFFE_PP_/CLK _157_/Y _203_/B VDD VSS sg13g2_dfrbpq_2
+X_115_ _115_/X _184_/A1 _115_/A1 _184_/S VDD VSS sg13g2_mux2_1
+Xoutput30 ctrl2[2] _176_/A3 VDD VSS sg13g2_buf_1
+.ends
+

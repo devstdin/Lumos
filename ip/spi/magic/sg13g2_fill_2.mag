@@ -1,0 +1,53 @@
+magic
+tech ihp-sg13g2
+timestamp 1754861848
+<< nwell >>
+rect -24 175 120 417
+<< pwell >>
+rect 7 28 89 116
+rect -13 -28 109 28
+<< ndiff >>
+rect 20 18 76 103
+<< psubdiff >>
+rect 20 15 76 18
+rect 0 8 96 15
+rect 0 -8 16 8
+rect 32 -8 64 8
+rect 80 -8 96 8
+rect 0 -15 96 -8
+<< nsubdiff >>
+rect 0 386 96 393
+rect 0 370 16 386
+rect 32 370 64 386
+rect 80 370 96 386
+rect 0 363 96 370
+<< psubdiffcont >>
+rect 16 -8 32 8
+rect 64 -8 80 8
+<< nsubdiffcont >>
+rect 16 370 32 386
+rect 64 370 80 386
+<< poly >>
+rect 20 123 76 275
+<< metal1 >>
+rect 0 386 96 400
+rect 0 370 16 386
+rect 32 370 64 386
+rect 80 370 96 386
+rect 0 356 96 370
+rect 0 8 96 22
+rect 0 -8 16 8
+rect 32 -8 64 8
+rect 80 -8 96 8
+rect 0 -22 96 -8
+<< labels >>
+flabel metal1 s 0 -22 96 22 0 FreeSans 200 0 0 0 VSS
+port 2 nsew
+flabel metal1 s 0 356 96 400 0 FreeSans 200 0 0 0 VDD
+port 3 nsew
+<< properties >>
+string FIXED_BBOX 0 0 96 378
+string GDS_END 231170
+string GDS_FILE 6_final.gds
+string GDS_START 229734
+<< end >>

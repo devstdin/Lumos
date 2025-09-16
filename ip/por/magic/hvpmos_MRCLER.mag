@@ -1,0 +1,98 @@
+magic
+tech ihp-sg13g2
+timestamp 1757240632
+<< error_p >>
+rect -33 55 -28 60
+rect 28 55 33 60
+rect -38 50 -33 55
+rect 33 50 38 55
+rect -38 39 -33 44
+rect 33 39 38 44
+rect -33 34 -28 39
+rect 28 34 33 39
+rect -67 18 -62 23
+rect -56 18 -51 23
+rect 51 18 56 23
+rect 62 18 67 23
+rect -72 13 -46 18
+rect 46 13 72 18
+rect -67 -13 -51 13
+rect 51 -13 67 13
+rect -72 -18 -46 -13
+rect 46 -18 72 -13
+rect -67 -23 -62 -18
+rect -56 -23 -51 -18
+rect 51 -23 56 -18
+rect 62 -23 67 -18
+rect -33 -39 -28 -34
+rect 28 -39 33 -34
+rect -38 -44 -33 -39
+rect 33 -44 38 -39
+rect -38 -55 -33 -50
+rect 33 -55 38 -50
+rect -33 -60 -28 -55
+rect 28 -60 33 -55
+<< nwell >>
+rect -136 62 136 87
+rect -247 -187 247 62
+<< hvpmos >>
+rect -40 -25 40 25
+<< hvpdiff >>
+rect -74 18 -40 25
+rect -74 -18 -67 18
+rect -51 -18 -40 18
+rect -74 -25 -40 -18
+rect 40 18 74 25
+rect 40 -18 51 18
+rect 67 -18 74 18
+rect 40 -25 74 -18
+<< hvpdiffc >>
+rect -67 -18 -51 18
+rect 51 -18 67 18
+<< nsubdiff >>
+rect -185 -7 -155 0
+rect -185 -88 -178 -7
+rect -162 -88 -155 -7
+rect 155 -7 185 0
+rect -185 -95 -155 -88
+rect 155 -88 162 -7
+rect 178 -88 185 -7
+rect 155 -95 185 -88
+rect -185 -102 185 -95
+rect -185 -118 -148 -102
+rect 148 -118 185 -102
+rect -185 -125 185 -118
+<< nsubdiffcont >>
+rect -178 -88 -162 -7
+rect 162 -88 178 -7
+rect -148 -118 148 -102
+<< poly >>
+rect -40 55 40 62
+rect -40 39 -33 55
+rect 33 39 40 55
+rect -40 25 40 39
+rect -40 -39 40 -25
+rect -40 -55 -33 -39
+rect 33 -55 40 -39
+rect -40 -62 40 -55
+<< polycont >>
+rect -33 39 33 55
+rect -33 -55 33 -39
+<< metal1 >>
+rect -183 -7 -157 -2
+rect -183 -88 -178 -7
+rect -162 -88 -157 -7
+rect 157 -7 183 -2
+rect -183 -97 -157 -88
+rect 157 -88 162 -7
+rect 178 -88 183 -7
+rect 157 -97 183 -88
+rect -183 -102 183 -97
+rect -183 -118 -148 -102
+rect 148 -118 183 -102
+rect -183 -123 183 -118
+<< properties >>
+string gencell hvpmos
+string library sg13g2_devstdin
+string parameters w 0.5 l 0.8 nf 1 nx 1 dx 0.21 ny 1 dy 0.18 wmin 0.50 lmin 0.50 class mosfet gcontcov_t 100 gcontcov_b 100 dcontcov_l 100 dcontcov_r 100 guard_distf 1.5 glc 1 grc 1 gtc 0 gbc 1
+<< end >>

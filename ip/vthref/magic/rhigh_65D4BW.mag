@@ -1,0 +1,37 @@
+magic
+tech ihp-sg13g2
+timestamp 1757240632
+<< error_p >>
+rect -23 615 23 641
+rect -23 -641 23 -615
+<< psubdiff >>
+rect 85 636 115 643
+rect 85 -636 92 636
+rect 108 -636 115 636
+rect 85 -643 115 -636
+<< psubdiffcont >>
+rect 92 -636 108 636
+<< poly >>
+rect -25 636 25 643
+rect -25 620 -18 636
+rect 18 620 25 636
+rect -25 600 25 620
+rect -25 -620 25 -600
+rect -25 -636 -18 -620
+rect 18 -636 25 -620
+rect -25 -643 25 -636
+<< polycont >>
+rect -18 620 18 636
+rect -18 -636 18 -620
+<< xpolyres >>
+rect -25 -600 25 600
+<< metal1 >>
+rect 87 636 113 641
+rect 87 -636 92 636
+rect 108 -636 113 636
+rect 87 -641 113 -636
+<< properties >>
+string gencell rhigh
+string library sg13g2_devstdin
+string parameters w 0.5 l 12 nx 1 dx 0.18 ny 1 dy 0.18 wmin 0.50 lmin 0.50 class resistor endcov 0 glc 0 grc 1 gtc 0 gbc 0
+<< end >>

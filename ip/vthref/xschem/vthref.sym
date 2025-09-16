@@ -1,0 +1,44 @@
+v {xschem version=3.4.5 file_version=1.2
+}
+G {}
+K {type=subcircuit
+format="@name @@VDD @@VSS @@ISOURCE @@ISINK @@VSOURCE @@VSINKT @@VSINKB @symname"
+template="name=X1"}
+V {}
+S {}
+E {}
+L 4 -80 -20 -70 -20 {}
+L 4 -80 80 -70 80 {}
+L 4 70 0 80 0 {}
+L 4 70 -20 80 -20 {}
+L 4 70 40 80 40 {}
+L 4 70 80 80 80 {}
+L 4 70 60 80 60 {}
+L 4 -47 30 -8 30 {}
+B 5 -82.5 -22.5 -77.5 -17.5 {name=VDD
+dir=inout}
+B 5 -82.5 77.5 -77.5 82.5 {name=VSS
+dir=inout}
+B 5 77.5 -22.5 82.5 -17.5 {name=ISOURCE
+dir=out}
+B 5 77.5 -2.5 82.5 2.5 {name=ISINK
+dir=in}
+B 5 77.5 37.5 82.5 42.5 {name=VSOURCE
+dir=inout}
+B 5 77.5 77.5 82.5 82.5 {name=VSINKB
+dir=inout}
+B 5 77.5 57.5 82.5 62.5 {name=VSINKT
+dir=inout}
+A 4 -27.5 30 20.15564437074637 97.12501634890181 360 {}
+P 4 5 -70 -30 70 -30 70 90 -70 90 -70 -30 {}
+P 4 3 -27 10 -27 -7 -13 -7 {}
+P 4 3 -27 50 -27 67 -13 67 {}
+T {VDD} -65 -25 0 0 0.2 0.2 {}
+T {VSS} -65 75 0 0 0.2 0.2 {}
+T {ISOURCE} 65 -25 0 1 0.2 0.2 {}
+T {ISINK} 65 -5 0 1 0.2 0.2 {}
+T {@name} 70 90 0 1 0.2 0.2 {}
+T {@symname} 70 100 0 1 0.2 0.2 {}
+T {VSOURCE} 65 35 0 1 0.2 0.2 {}
+T {VSINKB} 65 75 0 1 0.2 0.2 {}
+T {VSINKT} 65 55 0 1 0.2 0.2 {}

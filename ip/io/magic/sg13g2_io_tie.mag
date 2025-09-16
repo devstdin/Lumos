@@ -1,0 +1,57 @@
+magic
+tech ihp-sg13g2
+magscale 1 2
+timestamp 1755542813
+<< checkpaint >>
+rect -2124 -2005 2364 4524
+<< nwell >>
+rect -124 1152 364 2524
+<< pwell >>
+rect -115 -5 354 107
+<< psubdiff >>
+rect -89 67 328 81
+rect -89 35 36 67
+rect 68 35 104 67
+rect 136 35 172 67
+rect 204 35 328 67
+rect -89 21 328 35
+<< nsubdiff >>
+rect 21 2365 219 2379
+rect 21 2333 36 2365
+rect 68 2333 104 2365
+rect 136 2333 172 2365
+rect 204 2333 219 2365
+rect 21 2319 219 2333
+<< psubdiffcont >>
+rect 36 35 68 67
+rect 104 35 136 67
+rect 172 35 204 67
+<< nsubdiffcont >>
+rect 36 2333 68 2365
+rect 104 2333 136 2365
+rect 172 2333 204 2365
+<< metal1 >>
+rect 0 2365 240 2400
+rect 0 2333 36 2365
+rect 68 2333 104 2365
+rect 136 2333 172 2365
+rect 204 2333 240 2365
+rect 0 2112 240 2333
+rect -50 67 294 288
+rect -50 35 36 67
+rect 68 35 104 67
+rect 136 35 172 67
+rect 204 35 294 67
+rect -50 0 294 35
+<< labels >>
+rlabel metal1 s 0 0 240 288 4 vss
+port 2 nsew
+rlabel metal1 s 0 2112 240 2400 4 vdd
+port 1 nsew
+flabel comment s 124 64 124 64 0 FreeSans 1600 0 0 0 sub!
+<< properties >>
+string device primitive
+string GDS_END 22702526
+string GDS_FILE sg13g2_io.gds
+string GDS_START 22701308
+<< end >>

@@ -1,0 +1,44 @@
+v {xschem version=3.4.6 file_version=1.2}
+G {}
+K {type=primitive
+format="@name @@VSS @@VDD @@IOVSS @@IOVDD sg13g2_@symname"
+template="name=X1"}
+V {}
+S {}
+E {}
+L 4 -56 0 -4 0 {}
+L 4 4 0 60 0 {}
+L 4 0 -20 24 -20 {}
+L 4 32 -24 32 -16 {}
+L 4 4 20 56 20 {}
+L 4 64 20 116 20 {}
+L 4 124 20 176 20 {}
+L 4 4 -40 56 -40 {}
+L 4 64 -40 116 -40 {}
+L 4 124 -40 176 -40 {}
+L 4 32 -20 60 -20 {}
+B 5 57.5 17.5 62.5 22.5 {name=IOVDD
+dir=inout}
+B 5 -2.5 17.5 2.5 22.5 {name=IOVSS
+dir=inout}
+B 5 117.5 17.5 122.5 22.5 {name=VSS
+dir=inout}
+B 5 177.5 17.5 182.5 22.5 {name=VDD
+dir=inout}
+A 4 0 0 4 0 180 {}
+A 4 60 0 2 270 360 {}
+A 4 0 -20 2 270 360 {}
+A 4 60 -20 2 180 360 {}
+P 4 4 32 -20 24 -16 24 -24 32 -20 {}
+P 4 3 -4 20 -72 20 -72 16 {}
+P 4 4 184 -40 270 -40 270 20 184 20 {}
+P 4 6 -88 -4 -88 -16 -56 -16 -56 16 -88 16 -88 4 {}
+P 4 3 -72 -16 -72 -40 -4 -40 {}
+T {IOVSS} 5 5 0 0 0.2 0.2 {}
+T {@name} 275 -6 0 0 0.2 0.2 {halign=left
+valign=center}
+T {@symname} 275 6 0 0 0.2 0.2 {halign=left
+valign=center}
+T {VSS} 125 5 0 0 0.2 0.2 {}
+T {VDD} 185 5 0 0 0.2 0.2 {}
+T {IOVDD} 65 5 0 0 0.2 0.2 {}

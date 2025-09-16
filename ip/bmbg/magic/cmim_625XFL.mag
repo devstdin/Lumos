@@ -1,0 +1,32 @@
+magic
+tech ihp-sg13g2
+magscale 1 2
+timestamp 1748298163
+<< error_p >>
+rect -3110 2210 -3101 2219
+rect 3101 2210 3110 2219
+rect -3119 2201 -3110 2210
+rect 3110 2201 3119 2210
+rect -3119 -2210 -3110 -2201
+rect 3110 -2210 3119 -2201
+rect -3110 -2219 -3101 -2210
+rect 3101 -2219 3110 -2210
+<< via4 >>
+rect -3110 -2210 3110 2210
+<< metal5 >>
+rect -3120 2210 3120 2220
+rect -3120 -2210 -3110 2210
+rect 3110 -2210 3120 2210
+rect -3120 -2220 3120 -2210
+<< mimcap >>
+rect -3000 2028 3000 2100
+rect -3000 -2028 -2928 2028
+rect 2928 -2028 3000 2028
+rect -3000 -2100 3000 -2028
+<< mimcapcontact >>
+rect -2928 -2028 2928 2028
+<< properties >>
+string gencell cmim
+string library sg13g2_devstdin
+string parameters w 30 l 21 nx 1 dx -0.6 ny 1 dy -0.6 wmin 1.14 lmin 1.14 class capacitor topcc 100 botcc 100
+<< end >>

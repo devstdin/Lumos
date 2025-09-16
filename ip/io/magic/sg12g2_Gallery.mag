@@ -1,0 +1,151 @@
+magic
+tech ihp-sg13g2
+timestamp 1755542813
+<< checkpaint >>
+rect -33262 -1250 141062 19236
+use sg13g2_Corner  sg13g2_Corner_0
+timestamp 1755542813
+transform 1 0 -32800 0 1 0
+box 538 538 18062 18062
+use sg13g2_Filler200  sg13g2_Filler200_0
+timestamp 1755542813
+transform 1 0 -100 0 1 0
+box -50 538 150 17800
+use sg13g2_Filler400  sg13g2_Filler400_0
+timestamp 1755542813
+transform 1 0 -300 0 1 0
+box -62 538 262 17800
+use sg13g2_Filler1000  sg13g2_Filler1000_0
+timestamp 1755542813
+transform 1 0 -800 0 1 0
+box -62 538 562 17800
+use sg13g2_Filler2000  sg13g2_Filler2000_0
+timestamp 1755542813
+transform 1 0 -1800 0 1 0
+box -62 538 1062 17800
+use sg13g2_Filler4000  sg13g2_Filler4000_0
+timestamp 1755542813
+transform 1 0 8000 0 1 0
+box -62 538 2062 17800
+use sg13g2_Filler4000  sg13g2_Filler4000_1
+timestamp 1755542813
+transform 1 0 18000 0 1 0
+box -62 538 2062 17800
+use sg13g2_Filler4000  sg13g2_Filler4000_2
+timestamp 1755542813
+transform 1 0 28000 0 1 0
+box -62 538 2062 17800
+use sg13g2_Filler4000  sg13g2_Filler4000_3
+timestamp 1755542813
+transform 1 0 38000 0 1 0
+box -62 538 2062 17800
+use sg13g2_Filler4000  sg13g2_Filler4000_4
+timestamp 1755542813
+transform 1 0 48000 0 1 0
+box -62 538 2062 17800
+use sg13g2_Filler4000  sg13g2_Filler4000_5
+timestamp 1755542813
+transform 1 0 58000 0 1 0
+box -62 538 2062 17800
+use sg13g2_Filler4000  sg13g2_Filler4000_6
+timestamp 1755542813
+transform 1 0 68000 0 1 0
+box -62 538 2062 17800
+use sg13g2_Filler4000  sg13g2_Filler4000_7
+timestamp 1755542813
+transform 1 0 78000 0 1 0
+box -62 538 2062 17800
+use sg13g2_Filler4000  sg13g2_Filler4000_8
+timestamp 1755542813
+transform 1 0 88000 0 1 0
+box -62 538 2062 17800
+use sg13g2_Filler4000  sg13g2_Filler4000_9
+timestamp 1755542813
+transform 1 0 98000 0 1 0
+box -62 538 2062 17800
+use sg13g2_Filler4000  sg13g2_Filler4000_10
+timestamp 1755542813
+transform 1 0 108000 0 1 0
+box -62 538 2062 17800
+use sg13g2_Filler4000  sg13g2_Filler4000_11
+timestamp 1755542813
+transform 1 0 118000 0 1 0
+box -62 538 2062 17800
+use sg13g2_Filler4000  sg13g2_Filler4000_12
+timestamp 1755542813
+transform 1 0 128000 0 1 0
+box -62 538 2062 17800
+use sg13g2_Filler4000  sg13g2_Filler4000_13
+timestamp 1755542813
+transform 1 0 138000 0 1 0
+box -62 538 2062 17800
+use sg13g2_Filler10000  sg13g2_Filler10000_0
+timestamp 1755542813
+transform 1 0 -14800 0 1 0
+box -62 538 5062 17800
+use sg13g2_IOPadAnalog  sg13g2_IOPadAnalog_0
+timestamp 1755542813
+transform 1 0 -9800 0 1 0
+box -62 0 8062 18000
+use sg13g2_IOPadIn  sg13g2_IOPadIn_0
+timestamp 1755542813
+transform 1 0 40000 0 1 0
+box -62 0 8062 18000
+use sg13g2_IOPadInOut4mA  sg13g2_IOPadInOut4mA_0
+timestamp 1755542813
+transform 1 0 50000 0 1 0
+box -62 0 8062 18062
+use sg13g2_IOPadInOut16mA  sg13g2_IOPadInOut16mA_0
+timestamp 1755542813
+transform 1 0 90000 0 1 0
+box -62 0 8062 18062
+use sg13g2_IOPadInOut30mA  sg13g2_IOPadInOut30mA_0
+timestamp 1755542813
+transform 1 0 60000 0 1 0
+box -62 0 8062 18062
+use sg13g2_IOPadIOVdd  sg13g2_IOPadIOVdd_0
+timestamp 1755542813
+transform 1 0 0 0 1 0
+box -62 0 8062 17800
+use sg13g2_IOPadIOVss  sg13g2_IOPadIOVss_0
+timestamp 1755542813
+transform 1 0 20000 0 1 0
+box -62 0 8062 17800
+use sg13g2_IOPadOut4mA  sg13g2_IOPadOut4mA_0
+timestamp 1755542813
+transform 1 0 70000 0 1 0
+box -62 0 8062 18000
+use sg13g2_IOPadOut16mA  sg13g2_IOPadOut16mA_0
+timestamp 1755542813
+transform 1 0 100000 0 1 0
+box -62 0 8062 18000
+use sg13g2_IOPadOut30mA  sg13g2_IOPadOut30mA_0
+timestamp 1755542813
+transform 1 0 80000 0 1 0
+box -62 0 8062 18000
+use sg13g2_IOPadTriOut4mA  sg13g2_IOPadTriOut4mA_0
+timestamp 1755542813
+transform 1 0 110000 0 1 0
+box -62 0 8062 18062
+use sg13g2_IOPadTriOut16mA  sg13g2_IOPadTriOut16mA_0
+timestamp 1755542813
+transform 1 0 120000 0 1 0
+box -62 0 8062 18062
+use sg13g2_IOPadTriOut30mA  sg13g2_IOPadTriOut30mA_0
+timestamp 1755542813
+transform 1 0 130000 0 1 0
+box -62 0 8062 18062
+use sg13g2_IOPadVdd  sg13g2_IOPadVdd_0
+timestamp 1755542813
+transform 1 0 10000 0 1 0
+box -62 0 8062 17800
+use sg13g2_IOPadVss  sg13g2_IOPadVss_0
+timestamp 1755542813
+transform 1 0 30000 0 1 0
+box -62 0 8062 17800
+<< properties >>
+string device primitive
+string GDS_END 71398258
+string GDS_FILE sg13g2_io.gds
+string GDS_START 71396774
+<< end >>

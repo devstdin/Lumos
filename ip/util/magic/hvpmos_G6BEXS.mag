@@ -1,0 +1,153 @@
+magic
+tech ihp-sg13g2
+timestamp 1752441215
+<< error_p >>
+rect -18 45 -13 50
+rect 13 45 18 50
+rect 306 45 311 50
+rect 337 45 342 50
+rect -23 40 23 45
+rect 301 40 347 45
+rect -18 34 18 40
+rect 306 34 342 40
+rect -23 29 23 34
+rect 301 29 347 34
+rect -18 24 -13 29
+rect 13 24 18 29
+rect 306 24 311 29
+rect 337 24 342 29
+rect -55 8 -50 13
+rect -44 8 -39 13
+rect 39 8 44 13
+rect 50 8 55 13
+rect 269 8 274 13
+rect 280 8 285 13
+rect 363 8 368 13
+rect 374 8 379 13
+rect -60 3 -34 8
+rect 34 3 60 8
+rect 264 3 290 8
+rect 358 3 384 8
+rect -55 -3 -39 3
+rect 39 -3 55 3
+rect 269 -3 285 3
+rect 363 -3 379 3
+rect -60 -8 -34 -3
+rect 34 -8 60 -3
+rect 264 -8 290 -3
+rect 358 -8 384 -3
+rect -55 -13 -50 -8
+rect -44 -13 -39 -8
+rect 39 -13 44 -8
+rect 50 -13 55 -8
+rect 269 -13 274 -8
+rect 280 -13 285 -8
+rect 363 -13 368 -8
+rect 374 -13 379 -8
+rect -18 -29 -13 -24
+rect 13 -29 18 -24
+rect 306 -29 311 -24
+rect 337 -29 342 -24
+rect -23 -34 23 -29
+rect 301 -34 347 -29
+rect -18 -40 18 -34
+rect 306 -40 342 -34
+rect -23 -45 23 -40
+rect 301 -45 347 -40
+rect -18 -50 -13 -45
+rect 13 -50 18 -45
+rect 306 -50 311 -45
+rect 337 -50 342 -45
+<< nwell >>
+rect -208 -166 532 166
+<< hvpmos >>
+rect -25 -15 25 15
+rect 299 -15 349 15
+<< hvpdiff >>
+rect -62 8 -25 15
+rect -62 -8 -55 8
+rect -39 -8 -25 8
+rect -62 -15 -25 -8
+rect 25 8 62 15
+rect 25 -8 39 8
+rect 55 -8 62 8
+rect 25 -15 62 -8
+rect 262 8 299 15
+rect 262 -8 269 8
+rect 285 -8 299 8
+rect 262 -15 299 -8
+rect 349 8 386 15
+rect 349 -8 363 8
+rect 379 -8 386 8
+rect 349 -15 386 -8
+<< hvpdiffc >>
+rect -55 -8 -39 8
+rect 39 -8 55 8
+rect 269 -8 285 8
+rect 363 -8 379 8
+<< nsubdiff >>
+rect -146 97 470 104
+rect -146 81 -109 97
+rect 433 81 470 97
+rect -146 74 470 81
+rect -146 67 -116 74
+rect -146 -67 -139 67
+rect -123 -67 -116 67
+rect 440 67 470 74
+rect -146 -74 -116 -67
+rect 440 -67 447 67
+rect 463 -67 470 67
+rect 440 -74 470 -67
+rect -146 -81 470 -74
+rect -146 -97 -109 -81
+rect 433 -97 470 -81
+rect -146 -104 470 -97
+<< nsubdiffcont >>
+rect -109 81 433 97
+rect -139 -67 -123 67
+rect 447 -67 463 67
+rect -109 -97 433 -81
+<< poly >>
+rect -25 45 25 52
+rect -25 29 -18 45
+rect 18 29 25 45
+rect -25 15 25 29
+rect 299 45 349 52
+rect 299 29 306 45
+rect 342 29 349 45
+rect 299 15 349 29
+rect -25 -29 25 -15
+rect -25 -45 -18 -29
+rect 18 -45 25 -29
+rect -25 -52 25 -45
+rect 299 -29 349 -15
+rect 299 -45 306 -29
+rect 342 -45 349 -29
+rect 299 -52 349 -45
+<< polycont >>
+rect -18 29 18 45
+rect 306 29 342 45
+rect -18 -45 18 -29
+rect 306 -45 342 -29
+<< metal1 >>
+rect -144 97 468 102
+rect -144 81 -109 97
+rect 433 81 468 97
+rect -144 76 468 81
+rect -144 67 -118 76
+rect -144 -67 -139 67
+rect -123 -67 -118 67
+rect 442 67 468 76
+rect -144 -76 -118 -67
+rect 442 -67 447 67
+rect 463 -67 468 67
+rect 442 -76 468 -67
+rect -144 -81 468 -76
+rect -144 -97 -109 -81
+rect 433 -97 468 -81
+rect -144 -102 468 -97
+<< properties >>
+string gencell hvpmos
+string library sg13g2_devstdin
+string parameters w 0.3 l 0.5 nf 1 nx 2 dx 2 ny 1 dy 0.18 wmin 0.50 lmin 0.50 class mosfet gcontcov_t 100 gcontcov_b 100 dcontcov_l 100 dcontcov_r 100 guard_distf 1 glc 1 grc 1 gtc 1 gbc 1
+<< end >>

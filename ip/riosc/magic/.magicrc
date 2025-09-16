@@ -1,0 +1,10 @@
+source $env(PDK_ROOT)/$env(PDK)/libs.tech/magic/ihp-sg13g2.magicrc
+
+puts stdout "Sourcing design .magicrc..."
+
+# load bind keys (optional)
+source magic_keys
+
+# grid
+grid 0.05um 0.05um
+snap user

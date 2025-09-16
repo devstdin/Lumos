@@ -1,0 +1,27 @@
+magic
+tech ihp-sg13g2
+timestamp 1754861848
+<< metal6 >>
+rect -250 3 -193 193
+rect -3 3 3 193
+rect 193 3 250 193
+rect -250 -3 250 3
+rect -250 -193 -193 -3
+rect -3 -193 3 -3
+rect 193 -193 250 -3
+<< via6 >>
+rect -193 3 -3 193
+rect 3 3 193 193
+rect -193 -193 -3 -3
+rect 3 -193 193 -3
+<< metal7 >>
+rect -193 193 193 250
+rect -3 3 3 193
+rect -193 -3 193 3
+rect -3 -193 3 -3
+rect -193 -250 193 -193
+<< properties >>
+string GDS_END 9150
+string GDS_FILE 6_final.gds
+string GDS_START 8762
+<< end >>
